@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MyTermColors' target in the 'MyTermColors' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
