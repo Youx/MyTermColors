@@ -1,0 +1,49 @@
+MyTermColors
+============
+
+Welcome to MyTermColors!
+
+
+Getting the code
+----------------
+
+Check out http://github.com/Youx/mytermcolors for the wiki, bug tracking, etc...
+The bleeding edge code can be grabbed from the git repository on github :
+
+	$ git clone git://github.com/Youx/mytermcolors.git
+
+For information about Git, please see http://www.git-scm.com
+
+
+How to build MyTermColors
+-------------------------
+
+To build MyTermColors.bundle from source, you will need : 
+- a Mac
+- XCode
+
+Open the project file in XCode, then hit build.
+
+This will create a MyTermColors.bundle in build/Release/
+
+
+How to install MyTermColors
+---------------------------
+
+To use MyTermColors, you will need to have SIMBL installed.
+Grab it from here : http://www.culater.net/software/SIMBL/SIMBL.php
+
+Then, you just need to drop the MyTermColors.bundle into ~/Library/Application Support/SIMBL/Plugins/
+
+
+Known Problems
+--------------
+
+No GUI, I don't have much time to work on this project.
+
+
+Author(s)
+---------
+
+Hugo Camboulive (Youx) <hugo.camboulive [AT] gmail.com>
+
