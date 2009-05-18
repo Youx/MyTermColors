@@ -546,6 +546,17 @@
 			9ADEC7240FC1CC6900D6CB7F /* PBXTextBookmark */ = 9ADEC7240FC1CC6900D6CB7F /* PBXTextBookmark */;
 			9ADEC7250FC1CC6900D6CB7F /* PBXTextBookmark */ = 9ADEC7250FC1CC6900D6CB7F /* PBXTextBookmark */;
 			9ADEC7270FC1CCA300D6CB7F /* PBXTextBookmark */ = 9ADEC7270FC1CCA300D6CB7F /* PBXTextBookmark */;
+			9ADEC72B0FC1CE5100D6CB7F /* PBXTextBookmark */ = 9ADEC72B0FC1CE5100D6CB7F /* PBXTextBookmark */;
+			9ADEC72C0FC1CE5100D6CB7F /* PBXTextBookmark */ = 9ADEC72C0FC1CE5100D6CB7F /* PBXTextBookmark */;
+			9ADEC72D0FC1CE5100D6CB7F /* PBXTextBookmark */ = 9ADEC72D0FC1CE5100D6CB7F /* PBXTextBookmark */;
+			9ADEC72E0FC1CE5100D6CB7F /* PBXTextBookmark */ = 9ADEC72E0FC1CE5100D6CB7F /* PBXTextBookmark */;
+			9ADEC72F0FC1CE5100D6CB7F /* PBXTextBookmark */ = 9ADEC72F0FC1CE5100D6CB7F /* PBXTextBookmark */;
+			9ADEC7320FC1CE8200D6CB7F /* PBXTextBookmark */ = 9ADEC7320FC1CE8200D6CB7F /* PBXTextBookmark */;
+			9ADEC7330FC1CE8200D6CB7F /* PBXTextBookmark */ = 9ADEC7330FC1CE8200D6CB7F /* PBXTextBookmark */;
+			9ADEC7340FC1CE8200D6CB7F /* PBXTextBookmark */ = 9ADEC7340FC1CE8200D6CB7F /* PBXTextBookmark */;
+			9ADEC7350FC1CE8200D6CB7F /* PBXTextBookmark */ = 9ADEC7350FC1CE8200D6CB7F /* PBXTextBookmark */;
+			9ADEC7360FC1CE8200D6CB7F /* PBXTextBookmark */ = 9ADEC7360FC1CE8200D6CB7F /* PBXTextBookmark */;
+			9ADEC7370FC1CE8200D6CB7F /* PBXTextBookmark */ = 9ADEC7370FC1CE8200D6CB7F /* PBXTextBookmark */;
 			9AF7C4C90FC0EB43007B4CE7 = 9AF7C4C90FC0EB43007B4CE7 /* PBXTextBookmark */;
 			9AF7C4CA0FC0EB43007B4CE7 = 9AF7C4CA0FC0EB43007B4CE7 /* PBXTextBookmark */;
 		};
@@ -583,7 +594,7 @@
 		fRef = 9A39AAD80CDDD40800E95DF9 /* TTView.h */;
 		name = "TTView.h: 16";
 		rLen = 63;
-		rLoc = 423;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 2133;
@@ -723,7 +734,7 @@
 		fRef = 9A39AAD80CDDD40800E95DF9 /* TTView.h */;
 		name = "TTView.h: 16";
 		rLen = 63;
-		rLoc = 423;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 554;
 		vrLoc = 162;
@@ -857,9 +868,9 @@
 	};
 	9A39AAD80CDDD40800E95DF9 /* TTView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 3668}}";
-			sepNavSelRange = "{423, 63}";
-			sepNavVisRange = "{2133, 1212}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 3710}}";
+			sepNavSelRange = "{472, 0}";
+			sepNavVisRange = "{0, 978}";
 		};
 	};
 	9A3F35F00FC160DF00ACEC92 /* PBXTextBookmark */ = {
@@ -922,9 +933,9 @@
 	};
 	9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 1624}}";
-			sepNavSelRange = "{357, 0}";
-			sepNavVisRange = "{0, 638}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 1596}}";
+			sepNavSelRange = "{267, 0}";
+			sepNavVisRange = "{0, 708}";
 			sepNavWindowFrame = "{{15, 52}, {1134, 694}}";
 		};
 	};
@@ -1512,16 +1523,16 @@
 	};
 	9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 602}}";
-			sepNavSelRange = "{267, 0}";
-			sepNavVisRange = "{0, 930}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 574}}";
+			sepNavSelRange = "{248, 0}";
+			sepNavVisRange = "{0, 939}";
 		};
 	};
 	9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 2056}}";
-			sepNavSelRange = "{4628, 0}";
-			sepNavVisRange = "{0, 863}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 1918}}";
+			sepNavSelRange = "{214, 0}";
+			sepNavVisRange = "{0, 1023}";
 		};
 	};
 	9ADEC5530FC1863500D6CB7F /* PBXTextBookmark */ = {
@@ -1559,7 +1570,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 17";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -1609,7 +1620,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 17";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -1649,7 +1660,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 17";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -1759,7 +1770,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 19";
 		rLen = 0;
-		rLoc = 490;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -1807,7 +1818,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 19";
 		rLen = 0;
-		rLoc = 490;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -1957,7 +1968,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 19";
 		rLen = 0;
-		rLoc = 490;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -1967,7 +1978,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 15";
 		rLen = 0;
-		rLoc = 1092;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 0;
@@ -2027,7 +2038,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 19";
 		rLen = 0;
-		rLoc = 490;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -2037,7 +2048,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 15";
 		rLen = 0;
-		rLoc = 1092;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 0;
@@ -3442,7 +3453,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 19";
 		rLen = 0;
-		rLoc = 490;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -3472,7 +3483,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 19";
 		rLen = 0;
-		rLoc = 490;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -3532,7 +3543,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 20";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -3572,7 +3583,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 20";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -3602,7 +3613,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 20";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -3912,7 +3923,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 15";
 		rLen = 0;
-		rLoc = 1092;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 0;
@@ -3922,7 +3933,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 20";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -4002,7 +4013,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 15";
 		rLen = 0;
-		rLoc = 1092;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 0;
@@ -4012,7 +4023,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 20";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -4082,7 +4093,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 139";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4345;
 		rType = 0;
 		vrLen = 1091;
 		vrLoc = 215;
@@ -4092,7 +4103,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 16";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 160;
@@ -4132,7 +4143,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 15";
 		rLen = 0;
-		rLoc = 1092;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 0;
@@ -4142,7 +4153,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 20";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -4182,7 +4193,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 20";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -4192,7 +4203,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 41";
 		rLen = 0;
-		rLoc = 1092;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 937;
 		vrLoc = 161;
@@ -4202,7 +4213,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 20";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -4222,7 +4233,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 16";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 160;
@@ -4232,7 +4243,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 139";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4345;
 		rType = 0;
 		vrLen = 1091;
 		vrLoc = 215;
@@ -4252,7 +4263,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 16";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 160;
@@ -4302,7 +4313,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 16";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 160;
@@ -4342,7 +4353,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 16";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 160;
@@ -4432,7 +4443,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 16";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 160;
@@ -4540,7 +4551,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 16";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 160;
@@ -4860,7 +4871,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 139";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4345;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 1135;
@@ -4900,7 +4911,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 139";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4345;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 1135;
@@ -4940,7 +4951,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 139";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4345;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 0;
@@ -4950,7 +4961,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 16";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 0;
@@ -5090,7 +5101,7 @@
 		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 139";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4345;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 0;
@@ -5100,7 +5111,7 @@
 		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
 		name = "MyTTProfile.h: 16";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 0;
@@ -5273,6 +5284,116 @@
 		rLoc = 357;
 		rType = 0;
 		vrLen = 638;
+		vrLoc = 0;
+	};
+	9ADEC72B0FC1CE5100D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 15";
+		rLen = 0;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 708;
+		vrLoc = 0;
+	};
+	9ADEC72C0FC1CE5100D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AA3C0CDDD1E700E95DF9 /* MyTTView.h */;
+		name = "MyTTView.h: 10";
+		rLen = 0;
+		rLoc = 187;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 0;
+	};
+	9ADEC72D0FC1CE5100D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 15";
+		rLen = 0;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 708;
+		vrLoc = 0;
+	};
+	9ADEC72E0FC1CE5100D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AA3C0CDDD1E700E95DF9 /* MyTTView.h */;
+		name = "MyTTView.h: 10";
+		rLen = 0;
+		rLoc = 187;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 0;
+	};
+	9ADEC72F0FC1CE5100D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AAD80CDDD40800E95DF9 /* TTView.h */;
+		name = "TTView.h: 18";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 0;
+	};
+	9ADEC7320FC1CE8200D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AAD80CDDD40800E95DF9 /* TTView.h */;
+		name = "TTView.h: 18";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 0;
+	};
+	9ADEC7330FC1CE8200D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 12";
+		rLen = 0;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 0;
+	};
+	9ADEC7340FC1CE8200D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
+		name = "MyTTProfile.h: 16";
+		rLen = 0;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 930;
+		vrLoc = 0;
+	};
+	9ADEC7350FC1CE8200D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AAD80CDDD40800E95DF9 /* TTView.h */;
+		name = "TTView.h: 18";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 0;
+	};
+	9ADEC7360FC1CE8200D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 12";
+		rLen = 0;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 0;
+	};
+	9ADEC7370FC1CE8200D6CB7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */;
+		name = "MyTTProfile.h: 15";
+		rLen = 0;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 939;
 		vrLoc = 0;
 	};
 	9AF7C4C90FC0EB43007B4CE7 /* PBXTextBookmark */ = {

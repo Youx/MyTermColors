@@ -11,7 +11,10 @@
 /*#import "TTBlinkingProtocol.h"*/
 
 @class NSAttributedString, NSCursor, NSImage, NSInvocation, NSMenuItem, NSMutableIndexSet, NSTimer, NSURL, TTLogicalScreen, TTProfile, TTTabController;
-@protocol TTBlinking;
+
+@protocol TTBlinking
+- (void)blinker:(id)fp8 didBlink:(BOOL)fp12;
+@end
 
 @interface TTView : TTAccessibleView <TTBlinking, NSTextInput>
 {

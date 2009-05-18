@@ -10,15 +10,6 @@
 
 
 @implementation MyTTProfile
-- (void) showInfo
-{
-	int i;
-	for (i = 0 ; i < [[_values allKeys] count] ; i++) {
-		NSRunAlertPanel(@"", @"%s => %s", @"a", nil, nil, 
-				[[[_values allKeys] objectAtIndex:i] cString], 
-				[[[self effectiveValueForKey:[[_values allKeys] objectAtIndex:i]] className] cString]);
-	}
-}
 
 /* Red setter and getter */
 - (void)setvtRedColor: (NSColor *)color {

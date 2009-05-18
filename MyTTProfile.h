@@ -12,7 +12,6 @@
 @interface MyTTProfile : TTProfile {
 
 }
-- (void) showInfo;
 
 - (void)setvtRedColor: (NSColor *)color;
 - (id)vtRedColor;
