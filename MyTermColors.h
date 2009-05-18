@@ -14,7 +14,7 @@
 @interface MyTermColors : NSObject {
 	@public
 	IBOutlet NSView *colorsView;
-	MyTTAppPrefsController *appPrefsController;
+	MyTTAppPrefsController *ctl;
 }
 + (void) load;
 + (MyTermColors*) sharedInstance;

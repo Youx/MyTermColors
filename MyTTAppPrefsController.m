@@ -8,7 +8,8 @@
 
 #import "MyTTAppPrefsController.h"
 #import "MyTermColors.h"
-#import "MyColors.h"
+#import "MyTTProfile.h"
+#import "ProfileTableViewDelegate.h"
 
 @implementation MyTTAppPrefsController
 
@@ -17,6 +18,14 @@
 	TTAppPrefsController *res = [super init];
 	
 	return res;
+}
+
+- (void)setProfileTableViewDelegate: (id)delegate
+{
+	if ([_profilesTableView delegate] != nil)
+		NSRunAlertPanel(@"Zut", @"Delegate existe déja!", @"Fuck", nil, nil);
+	else
+		[_profilesTableView setDelegate: delegate];
 }
 
 - (void)addColorsTab
@@ -44,23 +53,7 @@
 	}
 }
 
-- (void) setDefaultColors
-{
-/*	vtRedColor = [NSColor colorWithDeviceRed: 0.64 green: 0.34 blue: 0.34 alpha: 1.0];
-	vtBrightRedColor = [NSColor colorWithDeviceRed: 0.64 green: 0.34 blue: 0.34 alpha: 1.0];
-	vtGreenColor = [NSColor colorWithDeviceRed: 0.48 green: 0.77 blue: 0.44 alpha: 1.0];
-	vtBrightRedColor = [NSColor colorWithDeviceRed: 0.48 green: 0.77 blue: 0.44 alpha: 1.0];
-	vtYellowColor = [NSColor colorWithDeviceRed: 0.87 green: 0.88 blue: 0.31 alpha: 1.0];
-	vtBrightYellowColor = [NSColor colorWithDeviceRed: 0.87 green: 0.88 blue: 0.31 alpha: 1.0];
-	vtBlueColor = [NSColor colorWithDeviceRed: 0.31 green: 0.51 blue: 0.70 alpha: 1.0];
-	vtBrightBlueColor = [NSColor colorWithDeviceRed: 0.39 green: 0.58 blue: 0.76 alpha: 1.0];
-	vtMagentaColor = [NSColor colorWithDeviceRed: 0.72 green: 0.505 blue: 0.675 alpha: 1.0];
-	vtBrightMagentaColor = [NSColor colorWithDeviceRed: 0.784 green: 0.4 blue: 0.705 alpha: 1.0];
-	vtCyanColor = [NSColor colorWithDeviceRed: 0.53 green: 0.53 blue: 0.625 alpha: 1.0];
-	vtBrightCyanColor = [NSColor colorWithDeviceRed: 0.53 green: 0.53 blue: 0.625 alpha: 1.0];*/
-}
-
-- (void) setColorWells
+- (void) setColorWells: (MyTTProfile *)p
 {
 	MyTermColors *bundle = [MyTermColors sharedInstance];
 	NSColorWell *well;
@@ -71,40 +64,40 @@
 
 	/* set red */
 	well = [[normalBox subviews] objectAtIndex: 0];
-	[well setColor: [MyColors vtRedColor]];
+	[well setColor: [p vtRedColor]];
 	/* set bright red */
 	well = [[brightBox subviews] objectAtIndex: 0];
-	[well setColor: [MyColors vtBrightRedColor]];
+	[well setColor: [p vtBrightRedColor]];
 	/* set green */
 	well = [[normalBox subviews] objectAtIndex: 1];
-	[well setColor: [MyColors vtGreenColor]];
+	[well setColor: [p vtGreenColor]];
 	/* set bright green */
 	well = [[brightBox subviews] objectAtIndex: 1];
-	[well setColor: [MyColors vtBrightGreenColor]];
+	[well setColor: [p vtBrightGreenColor]];
 	/* set yellow */
 	well = [[normalBox subviews] objectAtIndex: 2];
-	[well setColor: [MyColors vtYellowColor]];
+	[well setColor: [p vtYellowColor]];
 	/* set bright yellow */
 	well = [[brightBox subviews] objectAtIndex: 2];
-	[well setColor: [MyColors vtBrightYellowColor]];
+	[well setColor: [p vtBrightYellowColor]];
 	/* set blue */
 	well = [[normalBox subviews] objectAtIndex: 3];
-	[well setColor: [MyColors vtBlueColor]];
+	[well setColor: [p vtBlueColor]];
 	/* set bright blue */
 	well = [[brightBox subviews] objectAtIndex: 3];
-	[well setColor: [MyColors vtBrightBlueColor]];
+	[well setColor: [p vtBrightBlueColor]];
 	/* set magenta */
 	well = [[normalBox subviews] objectAtIndex: 4];
-	[well setColor: [MyColors vtMagentaColor]];
+	[well setColor: [p vtMagentaColor]];
 	/* set bright magenta */
 	well = [[brightBox subviews] objectAtIndex: 4];
-	[well setColor: [MyColors vtBrightMagentaColor]];
+	[well setColor: [p vtBrightMagentaColor]];
 	/* set cyan */
 	well = [[normalBox subviews] objectAtIndex: 5];
-	[well setColor: [MyColors vtCyanColor]];
+	[well setColor: [p vtCyanColor]];
 	/* set bright cyan */
 	well = [[brightBox subviews] objectAtIndex: 5];
-	[well setColor: [MyColors vtBrightCyanColor]];
+	[well setColor: [p vtBrightCyanColor]];
 }
 
 /* White setter and getter */
@@ -113,6 +106,12 @@
 }
 + (id)vtBrightWhiteColor {
 	return [NSColor colorWithDeviceRed: 1.0 green: 1.0 blue: 1.0 alpha: 1.0];
+}
+
+
+- (id)profilesController
+{
+	return self->_profilesController;
 }
 
 @end
