@@ -47,6 +47,15 @@
 	[plugin->ctl setProfileTableViewDelegate: deleg];
 }
 
++ (void) redrawWindows
+{
+	int count = [[NSApp windows] count];
+	int i;
+
+	for (i = 0 ; i < count ; i++) {
+		[[[[NSApp windows] objectAtIndex: i] contentView] setNeedsDisplay: YES];
+	}
+}
 
 /**
  * @return the single static instance of the plugin object
@@ -64,50 +73,61 @@
 - (IBAction) setRed: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtRedColor: [sender color]];
-	//[MyColors setvtRedColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setBRed: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtBrightRedColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setGreen: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtGreenColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setBGreen: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtBrightGreenColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setYellow: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtYellowColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setBYellow: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtBrightYellowColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setBlue: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtBlueColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setBBlue: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtBrightBlueColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setMagenta: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtMagentaColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setBMagenta: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtBrightMagentaColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setCyan: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtCyanColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 - (IBAction) setBCyan: (id)sender
 {
 	[[[[self->ctl profilesController] selectedObjects] objectAtIndex: 0] setvtBrightCyanColor: [sender color]];
+	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 }
 @end

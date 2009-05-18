@@ -17,6 +17,7 @@
 	MyTTAppPrefsController *ctl;
 }
 + (void) load;
++ (void) redrawWindows;
 + (MyTermColors*) sharedInstance;
 - (IBAction) setRed: (id)sender;
 - (IBAction) setBRed: (id)sender;
