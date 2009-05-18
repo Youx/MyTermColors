@@ -39,7 +39,9 @@ Then, you just need to drop the MyTermColors.bundle into ~/Library/Application S
 Known Problems
 --------------
 
-No GUI, I don't have much time to work on this project.
+The GUI is not complete yet : settings will only stay as long as you don't close
+Terminal.app
+The GUI is not localized.
 
 
 Author(s)
