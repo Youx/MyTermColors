@@ -64,41 +64,46 @@
 {
 	MyTermColors *bundle = [MyTermColors sharedInstance];
 	NSColorWell *well;
+	NSBox *normalBox, *brightBox;
+
+	brightBox = [[[bundle->colorsView subviews] objectAtIndex: 0] contentView];
+	normalBox = [[[bundle->colorsView subviews] objectAtIndex: 1] contentView];
+
 	/* set red */
-	well = [[bundle->colorsView subviews] objectAtIndex: 23];
+	well = [[normalBox subviews] objectAtIndex: 0];
 	[well setColor: [MyColors vtRedColor]];
 	/* set bright red */
-	well = [[bundle->colorsView subviews] objectAtIndex: 11];
+	well = [[brightBox subviews] objectAtIndex: 0];
 	[well setColor: [MyColors vtBrightRedColor]];
 	/* set green */
-	well = [[bundle->colorsView subviews] objectAtIndex: 22];
+	well = [[normalBox subviews] objectAtIndex: 1];
 	[well setColor: [MyColors vtGreenColor]];
 	/* set bright green */
-	well = [[bundle->colorsView subviews] objectAtIndex: 10];
+	well = [[brightBox subviews] objectAtIndex: 1];
 	[well setColor: [MyColors vtBrightGreenColor]];
 	/* set yellow */
-	well = [[bundle->colorsView subviews] objectAtIndex: 21];
+	well = [[normalBox subviews] objectAtIndex: 2];
 	[well setColor: [MyColors vtYellowColor]];
 	/* set bright yellow */
-	well = [[bundle->colorsView subviews] objectAtIndex: 9];
+	well = [[brightBox subviews] objectAtIndex: 2];
 	[well setColor: [MyColors vtBrightYellowColor]];
 	/* set blue */
-	well = [[bundle->colorsView subviews] objectAtIndex: 20];
+	well = [[normalBox subviews] objectAtIndex: 3];
 	[well setColor: [MyColors vtBlueColor]];
 	/* set bright blue */
-	well = [[bundle->colorsView subviews] objectAtIndex: 8];
+	well = [[brightBox subviews] objectAtIndex: 3];
 	[well setColor: [MyColors vtBrightBlueColor]];
 	/* set magenta */
-	well = [[bundle->colorsView subviews] objectAtIndex: 19];
+	well = [[normalBox subviews] objectAtIndex: 4];
 	[well setColor: [MyColors vtMagentaColor]];
 	/* set bright magenta */
-	well = [[bundle->colorsView subviews] objectAtIndex: 7];
+	well = [[brightBox subviews] objectAtIndex: 4];
 	[well setColor: [MyColors vtBrightMagentaColor]];
 	/* set cyan */
-	well = [[bundle->colorsView subviews] objectAtIndex: 13];
+	well = [[normalBox subviews] objectAtIndex: 5];
 	[well setColor: [MyColors vtCyanColor]];
 	/* set bright cyan */
-	well = [[bundle->colorsView subviews] objectAtIndex: 1];
+	well = [[brightBox subviews] objectAtIndex: 5];
 	[well setColor: [MyColors vtBrightCyanColor]];
 }
 
