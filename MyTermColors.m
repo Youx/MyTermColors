@@ -60,4 +60,52 @@
 	return plugin;
 }
 
+- (IBAction) setRed: (id)sender
+{
+	[MyColors setvtRedColor: [sender color]];
+}
+- (IBAction) setBRed: (id)sender
+{
+	[MyColors setvtBrightRedColor: [sender color]];
+}
+- (IBAction) setGreen: (id)sender
+{
+	[MyColors setvtGreenColor: [sender color]];
+}
+- (IBAction) setBGreen: (id)sender
+{
+	[MyColors setvtBrightGreenColor: [sender color]];
+}
+- (IBAction) setYellow: (id)sender
+{
+	[MyColors setvtYellowColor: [sender color]];
+}
+- (IBAction) setBYellow: (id)sender
+{
+	[MyColors setvtBrightYellowColor: [sender color]];
+}
+- (IBAction) setBlue: (id)sender
+{
+	[MyColors setvtBlueColor: [sender color]];
+}
+- (IBAction) setBBlue: (id)sender
+{
+	[MyColors setvtBrightBlueColor: [sender color]];
+}
+- (IBAction) setMagenta: (id)sender
+{
+	[MyColors setvtMagentaColor: [sender color]];
+}
+- (IBAction) setBMagenta: (id)sender
+{
+	[MyColors setvtBrightMagentaColor: [sender color]];
+}
+- (IBAction) setCyan: (id)sender
+{
+	[MyColors setvtCyanColor: [sender color]];
+}
+- (IBAction) setBCyan: (id)sender
+{
+	[MyColors setvtBrightCyanColor: [sender color]];
+}
 @end
