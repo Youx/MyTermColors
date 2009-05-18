@@ -8,11 +8,14 @@
 
 #import "MyTTView.h"
 #import "MyColors.h"
+#import "MyTermColors.h"
+#import "MyTTAppPrefsController.h"
 
 @implementation MyTTView
+
 - (id)colorForANSIColor:(unsigned int)fp8 {
 	id def = [super colorForANSIColor: fp8];
-
+	
 	switch(fp8) {
 		case 1:
 			return [NSColor vtBlackColor];

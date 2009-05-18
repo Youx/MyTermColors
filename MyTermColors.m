@@ -12,12 +12,14 @@
 
 #import "MyTTView.h"
 
+#import "TTAppPrefsController.h"
+#import "MyTTAppPrefsController.h"
+
 #import <objc/objc-runtime.h>
 #import <objc/objc-class.h>
 #import <uuid/uuid.h>
 
 @class TTView;
-
 
 
 @implementation MyTermColors
@@ -27,9 +29,21 @@
 + (void) load
 {
 	MyTermColors* plugin = [MyTermColors sharedInstance];
-	// Replace our classes	
+
+	/* Do some class posing */	
 	[MyColors poseAsClass: [NSColor class]];
 	[MyTTView poseAsClass: [TTView class]];
+	[MyTTAppPrefsController poseAsClass: [TTAppPrefsController class]];
+
+	/* Add the new tab */
+	MyTTAppPrefsController *ctl;
+	ctl = [MyTTAppPrefsController sharedPreferencesController];
+	plugin->appPrefsController = ctl;
+	[ctl window];			/* Force instanciation of the Controller */
+	[ctl addColorsTab];		/* Add the colors tab */
+
+	[ctl setDefaultColors];		/* Set the default colors */
+	[ctl setColorWells];		/* Update the color wells to the right color */
 }
 
 

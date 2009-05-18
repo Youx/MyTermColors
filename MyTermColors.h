@@ -7,9 +7,14 @@
 //
 
 
+@class MyTTAppPrefsController;
 
+#import <Cocoa/Cocoa.h>
 
 @interface MyTermColors : NSObject {
+	@public
+	IBOutlet NSView *colorsView;
+	MyTTAppPrefsController *appPrefsController;
 }
 + (void) load;
 + (MyTermColors*) sharedInstance;
