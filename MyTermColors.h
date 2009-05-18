@@ -11,6 +11,8 @@
 
 #import <Cocoa/Cocoa.h>
 
+NSString *_L(NSString *in);
+
 @interface MyTermColors : NSObject {
 	@public
 	IBOutlet NSView *colorsView;

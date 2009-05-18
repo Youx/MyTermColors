@@ -22,6 +22,14 @@
 
 @class TTView;
 
+/**
+ * Helper function to localize a string
+ */
+NSString *_L(NSString *in)
+{
+	NSBundle *b = [NSBundle bundleForClass: [MyTermColors class]];
+	return NSLocalizedStringFromTableInBundle (in, @"Localizable", b, @"");
+}
 
 @implementation MyTermColors
 

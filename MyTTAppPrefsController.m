@@ -36,8 +36,6 @@
 	NSTabView *profile_settings;
 	NSView *settings_view;
 	
-	//NSRunAlertPanel(@"title", @"format", @"button1", @"button2", nil);
-	
 	if (![NSBundle loadNibNamed:@"colors_selector" owner:bundle]) {
 		NSLog(@"Error loading Nib for MyTermColors!");
 	} else {
@@ -47,7 +45,7 @@
 		/* Get the per-profile settings tabview */
 		profile_settings = [[settings_view subviews] objectAtIndex:0];
 		text_colors_tabview = [[NSTabViewItem alloc] init];
-		[text_colors_tabview setLabel: @"Colors"];
+		[text_colors_tabview setLabel: _L(@"Colors")];
 		[text_colors_tabview setView: bundle->colorsView];
 		[profile_settings addTabViewItem: text_colors_tabview];
 	}

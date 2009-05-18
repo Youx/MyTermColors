@@ -14,7 +14,8 @@
 		9AD68AA20FA11D7F000500AF /* MyTTAppPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */; };
 		9ADEC54E0FC1850F00D6CB7F /* MyTTProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */; };
 		9ADEC59B0FC1AB3800D6CB7F /* ProfileTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADEC59A0FC1AB3800D6CB7F /* ProfileTableViewDelegate.m */; };
-		9AF7C3E70FC0A0E8007B4CE7 /* colors_selector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AF7C3E60FC0A0E8007B4CE7 /* colors_selector.xib */; };
+		9ADEC7B50FC223E300D6CB7F /* colors_selector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEC7B20FC223B400D6CB7F /* colors_selector.xib */; };
+		9ADEC7E00FC2267900D6CB7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEC7DF0FC2267900D6CB7F /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +42,11 @@
 		9ADEC5990FC1AB3800D6CB7F /* ProfileTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewDelegate.h; sourceTree = "<group>"; };
 		9ADEC59A0FC1AB3800D6CB7F /* ProfileTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewDelegate.m; sourceTree = "<group>"; };
 		9ADEC5AA0FC1AC9A00D6CB7F /* TTProfileArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTProfileArrayController.h; sourceTree = "<group>"; };
-		9AF7C3E60FC0A0E8007B4CE7 /* colors_selector.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = colors_selector.xib; sourceTree = "<group>"; };
+		9ADEC7B40FC223CD00D6CB7F /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/colors_selector.xib; sourceTree = "<group>"; };
+		9ADEC7C20FC2247700D6CB7F /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9ADEC7DD0FC2267200D6CB7F /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9ADEC7E10FC2269400D6CB7F /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9AF7C3E60FC0A0E8007B4CE7 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/colors_selector.xib; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +70,6 @@
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
-				9AF7C3E60FC0A0E8007B4CE7 /* colors_selector.xib */,
 			);
 			name = MyTermColors;
 			sourceTree = "<group>";
@@ -82,8 +86,10 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9ADEC7B20FC223B400D6CB7F /* colors_selector.xib */,
 				8D5B49B7048680CD000E48DA /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				9ADEC7DF0FC2267900D6CB7F /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -196,8 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADEC7B50FC223E300D6CB7F /* colors_selector.xib in Resources */,
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
-				9AF7C3E70FC0A0E8007B4CE7 /* colors_selector.xib in Resources */,
+				9ADEC7E00FC2267900D6CB7F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +230,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				089C167EFE841241C02AAC07 /* English */,
+				9ADEC7C20FC2247700D6CB7F /* French */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9ADEC7B20FC223B400D6CB7F /* colors_selector.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF7C3E60FC0A0E8007B4CE7 /* English */,
+				9ADEC7B40FC223CD00D6CB7F /* French */,
+			);
+			name = colors_selector.xib;
+			sourceTree = "<group>";
+		};
+		9ADEC7DF0FC2267900D6CB7F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ADEC7DD0FC2267200D6CB7F /* English */,
+				9ADEC7E10FC2269400D6CB7F /* French */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
