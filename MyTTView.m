@@ -9,43 +9,43 @@
 #import "MyTTView.h"
 #import "MyTermColors.h"
 #import "MyTTAppPrefsController.h"
-#import "MyTTProfile.h"
+#import "TTProfile.h"
 
 @implementation MyTTView
 
 - (id)colorForANSIColor:(unsigned int)fp8 {
 	id def = [super colorForANSIColor: fp8];
-	MyTTProfile *p = (MyTTProfile *)self->_profile;
-	
+	TTProfile *p = (TTProfile *)self->_profile;
+	MyTTAppPrefsController *ctl = [MyTTAppPrefsController sharedPreferencesController];
 	switch(fp8) {
 /*		case 1:
 			return [p vtBlackColor];
 		case 9:
 			return [p vtBrightBlackColor];*/
 		case 2:
-			return [p vtRedColor];
+			return [ctl vtRedColorForProfile: p];
 		case 10:
-			return [p vtBrightRedColor];
+			return [ctl vtBrightRedColorForProfile: p];
 		case 3:
-			return [p vtGreenColor];
+			return [ctl vtGreenColorForProfile: p];
 		case 11:
-			return [p vtBrightGreenColor];
+			return [ctl vtBrightGreenColorForProfile: p];
 		case 4:
-			return [p vtYellowColor];
+			return [ctl vtYellowColorForProfile: p];
 		case 12:
-			return [p vtBrightYellowColor];
+			return [ctl vtBrightYellowColorForProfile: p];
 		case 5:
-			return [p vtBlueColor];
+			return [ctl vtBlueColorForProfile: p];
 		case 13:
-			return [p vtBrightBlueColor];
+			return [ctl vtBrightBlueColorForProfile: p];
 		case 6:
-			return [p vtMagentaColor];
+			return [ctl vtMagentaColorForProfile: p];
 		case 14:
-			return [p vtBrightMagentaColor];
+			return [ctl vtBrightMagentaColorForProfile: p];
 		case 7:
-			return [p vtCyanColor];
+			return [ctl vtCyanColorForProfile: p];
 		case 15:
-			return [p vtBrightCyanColor];
+			return [ctl vtBrightCyanColorForProfile: p];
 /*		case 8:
 			return [p vtWhiteColor];
 		case 16:

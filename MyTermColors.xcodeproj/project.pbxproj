@@ -12,7 +12,6 @@
 		9A39AA3E0CDDD1E700E95DF9 /* MyTTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */; };
 		9AAF80810CD7EBE300ADF8D4 /* MyTermColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */; };
 		9AD68AA20FA11D7F000500AF /* MyTTAppPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */; };
-		9ADEC54E0FC1850F00D6CB7F /* MyTTProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */; };
 		9ADEC59B0FC1AB3800D6CB7F /* ProfileTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADEC59A0FC1AB3800D6CB7F /* ProfileTableViewDelegate.m */; };
 		9ADEC7B50FC223E300D6CB7F /* colors_selector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEC7B20FC223B400D6CB7F /* colors_selector.xib */; };
 		9ADEC7E00FC2267900D6CB7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEC7DF0FC2267900D6CB7F /* Localizable.strings */; };
@@ -39,8 +38,6 @@
 		9AD68AA00FA11D7F000500AF /* MyTTAppPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTAppPrefsController.h; sourceTree = "<group>"; };
 		9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTTAppPrefsController.m; sourceTree = "<group>"; };
 		9ADEC5400FC183CD00D6CB7F /* TTProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTProfile.h; sourceTree = "<group>"; };
-		9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTProfile.h; sourceTree = "<group>"; };
-		9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTTProfile.m; sourceTree = "<group>"; };
 		9ADEC5990FC1AB3800D6CB7F /* ProfileTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewDelegate.h; sourceTree = "<group>"; };
 		9ADEC59A0FC1AB3800D6CB7F /* ProfileTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewDelegate.m; sourceTree = "<group>"; };
 		9ADEC5AA0FC1AC9A00D6CB7F /* TTProfileArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTProfileArrayController.h; sourceTree = "<group>"; };
@@ -107,8 +104,6 @@
 				9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */,
 				9AAF807F0CD7EBE300ADF8D4 /* MyTermColors.h */,
 				9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */,
-				9ADEC54C0FC1850F00D6CB7F /* MyTTProfile.h */,
-				9ADEC54D0FC1850F00D6CB7F /* MyTTProfile.m */,
 				9ADEC5990FC1AB3800D6CB7F /* ProfileTableViewDelegate.h */,
 				9ADEC59A0FC1AB3800D6CB7F /* ProfileTableViewDelegate.m */,
 			);
@@ -221,7 +216,6 @@
 				9AAF80810CD7EBE300ADF8D4 /* MyTermColors.m in Sources */,
 				9A39AA3E0CDDD1E700E95DF9 /* MyTTView.m in Sources */,
 				9AD68AA20FA11D7F000500AF /* MyTTAppPrefsController.m in Sources */,
-				9ADEC54E0FC1850F00D6CB7F /* MyTTProfile.m in Sources */,
 				9ADEC59B0FC1AB3800D6CB7F /* ProfileTableViewDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
