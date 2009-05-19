@@ -31,6 +31,8 @@
 		9A39AA3C0CDDD1E700E95DF9 /* MyTTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTView.h; sourceTree = "<group>"; };
 		9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTTView.m; sourceTree = "<group>"; };
 		9A39AAD80CDDD40800E95DF9 /* TTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTView.h; sourceTree = "<group>"; };
+		9A76E16F0FC2337600B70E8E /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9A76E1740FC233DD00B70E8E /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9AAF807F0CD7EBE300ADF8D4 /* MyTermColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTermColors.h; sourceTree = "<group>"; };
 		9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTermColors.m; sourceTree = "<group>"; };
 		9AD68A920FA11891000500AF /* TTAppPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAppPrefsController.h; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		9ADEC7C20FC2247700D6CB7F /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9ADEC7DD0FC2267200D6CB7F /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9ADEC7E10FC2269400D6CB7F /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9ADEC83F0FC22E4200D6CB7F /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/colors_selector.xib; sourceTree = "<group>"; };
 		9AF7C3E60FC0A0E8007B4CE7 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/colors_selector.xib; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -231,6 +234,7 @@
 			children = (
 				089C167EFE841241C02AAC07 /* English */,
 				9ADEC7C20FC2247700D6CB7F /* French */,
+				9A76E1740FC233DD00B70E8E /* German */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -240,6 +244,7 @@
 			children = (
 				9AF7C3E60FC0A0E8007B4CE7 /* English */,
 				9ADEC7B40FC223CD00D6CB7F /* French */,
+				9ADEC83F0FC22E4200D6CB7F /* German */,
 			);
 			name = colors_selector.xib;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			children = (
 				9ADEC7DD0FC2267200D6CB7F /* English */,
 				9ADEC7E10FC2269400D6CB7F /* French */,
+				9A76E16F0FC2337600B70E8E /* German */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
