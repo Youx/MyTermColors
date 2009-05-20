@@ -13,7 +13,6 @@
 		9A39AA3E0CDDD1E700E95DF9 /* MyTTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */; };
 		9AAF80810CD7EBE300ADF8D4 /* MyTermColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */; };
 		9AB5598B0FC43C6B00F73DB4 /* MyTTProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */; };
-		9AB55A5E0FC44B0400F73DB4 /* colors_selector.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AB55A5C0FC44B0400F73DB4 /* colors_selector.strings */; };
 		9AD68AA20FA11D7F000500AF /* MyTTAppPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */; };
 		9ADEC7B50FC223E300D6CB7F /* colors_selector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEC7B20FC223B400D6CB7F /* colors_selector.xib */; };
 		9ADEC7E00FC2267900D6CB7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEC7DF0FC2267900D6CB7F /* Localizable.strings */; };
@@ -214,7 +213,6 @@
 				9ADEC7B50FC223E300D6CB7F /* colors_selector.xib in Resources */,
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
 				9ADEC7E00FC2267900D6CB7F /* Localizable.strings in Resources */,
-				9AB55A5E0FC44B0400F73DB4 /* colors_selector.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
