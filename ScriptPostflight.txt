@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm /private/tmp/CurrentUser
+
+exit 0
