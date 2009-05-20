@@ -10,6 +10,7 @@
 
 #import "MyTTProfile.h"
 #import "JRSwizzle.h"
+#import "MyColors.h"
 
 /**
  * Helper function to localize a string
@@ -30,7 +31,8 @@ NSString *_L(NSString *in)
 {
 	MyTermColors* plugin = [MyTermColors sharedInstance];
 	NSError *err = nil;
-	/* Do some class posing */
+	/* Do some class posing and method swizzling */
+	[MyColors poseAsClass: [NSColor class]];
 	[TTView jr_swizzleMethod:@selector(colorForANSIColor:) withMethod:@selector(colorForANSIColor2:) error:&err];
 	[TTProfile jr_swizzleMethod:@selector(valueForUndefinedKey:) withMethod:@selector(valueForUndefinedKey2:) error:&err];
 

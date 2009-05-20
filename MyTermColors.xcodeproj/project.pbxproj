@@ -13,6 +13,7 @@
 		9A39AA3E0CDDD1E700E95DF9 /* MyTTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */; };
 		9AAF80810CD7EBE300ADF8D4 /* MyTermColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */; };
 		9AB5598B0FC43C6B00F73DB4 /* MyTTProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */; };
+		9AB55ACA0FC4526900F73DB4 /* MyColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB55AC90FC4526900F73DB4 /* MyColors.m */; };
 		9AD68AA20FA11D7F000500AF /* MyTTAppPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */; };
 		9ADEC7B50FC223E300D6CB7F /* colors_selector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEC7B20FC223B400D6CB7F /* colors_selector.xib */; };
 		9ADEC7E00FC2267900D6CB7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEC7DF0FC2267900D6CB7F /* Localizable.strings */; };
@@ -42,6 +43,8 @@
 		9AB55A5D0FC44B0400F73DB4 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/colors_selector.strings; sourceTree = "<group>"; };
 		9AB55A5F0FC44B4C00F73DB4 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/colors_selector.strings; sourceTree = "<group>"; };
 		9AB55A600FC44B6B00F73DB4 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/colors_selector.strings; sourceTree = "<group>"; };
+		9AB55AC80FC4526900F73DB4 /* MyColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyColors.h; sourceTree = "<group>"; };
+		9AB55AC90FC4526900F73DB4 /* MyColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyColors.m; sourceTree = "<group>"; };
 		9AD68A920FA11891000500AF /* TTAppPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAppPrefsController.h; sourceTree = "<group>"; };
 		9AD68AA00FA11D7F000500AF /* MyTTAppPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTAppPrefsController.h; sourceTree = "<group>"; };
 		9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTTAppPrefsController.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */,
 				9AAF807F0CD7EBE300ADF8D4 /* MyTermColors.h */,
 				9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */,
+				9AB55AC80FC4526900F73DB4 /* MyColors.h */,
+				9AB55AC90FC4526900F73DB4 /* MyColors.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 				9AD68AA20FA11D7F000500AF /* MyTTAppPrefsController.m in Sources */,
 				9A1445A80FC30B1100A791C0 /* JRSwizzle.m in Sources */,
 				9AB5598B0FC43C6B00F73DB4 /* MyTTProfile.m in Sources */,
+				9AB55ACA0FC4526900F73DB4 /* MyColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

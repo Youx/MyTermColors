@@ -36,16 +36,24 @@ Grab it from here : http://www.culater.net/software/SIMBL/SIMBL.php
 Then, you just need to drop the MyTermColors.bundle into ~/Library/Application Support/SIMBL/Plugins/
 
 
-Known Problems
+Languages
 --------------
 
-The GUI is not complete yet : settings will only stay as long as you don't close
-Terminal.app
-The GUI is not localized.
+English
+French
+German
 
+You can help too.
 
 Author(s)
 ---------
 
 Hugo Camboulive (Youx) <hugo.camboulive [AT] gmail.com>
 
+
+Thanks
+------
+
+The TerminalColours project for some insight on using KVO bindings in nib files.
+Keevn7 for providing the nice pastel colors a long time ago (and awesome shell config files).
+Mike Solomon for creating SIMBL and the original TerminalColors
