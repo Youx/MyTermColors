@@ -7,10 +7,7 @@
 //
 
 
-@class TTAppPrefsController;
-
-#import <Cocoa/Cocoa.h>
-
+#import "MyTTAppPrefsController.h"
 
 
 NSString *_L(NSString *in);
@@ -23,16 +20,6 @@ NSString *_L(NSString *in);
 + (void) load;
 + (void) redrawWindows;
 + (MyTermColors*) sharedInstance;
-- (IBAction) setRed: (id)sender;
-- (IBAction) setBRed: (id)sender;
-- (IBAction) setGreen: (id)sender;
-- (IBAction) setBGreen: (id)sender;
-- (IBAction) setYellow: (id)sender;
-- (IBAction) setBYellow: (id)sender;
-- (IBAction) setBlue: (id)sender;
-- (IBAction) setBBlue: (id)sender;
-- (IBAction) setMagenta: (id)sender;
-- (IBAction) setBMagenta: (id)sender;
-- (IBAction) setCyan: (id)sender;
-- (IBAction) setBCyan: (id)sender;
+- (id) profilesController;
+
 @end

@@ -10,5 +10,7 @@
 #import "TTView.h"
 
 @interface TTView (MyTerm)
+
 - (id)colorForANSIColor2:(unsigned int)fp8;
+
 @end

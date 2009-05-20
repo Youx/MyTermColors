@@ -8,22 +8,8 @@
 
 #import "MyTermColors.h"
 
-
-#import "MyTTView.h"
-
-#import "TTAppPrefsController.h"
-#import "TTProfileArrayController.h"
-#import "MyTTAppPrefsController.h"
-#import "TTProfile.h"
-#import "TTView.h"
-
-#import <objc/objc-runtime.h>
-#import <objc/objc-class.h>
-#import <uuid/uuid.h>
-
+#import "MyTTProfile.h"
 #import "JRSwizzle.h"
-
-@class TTView;
 
 /**
  * Helper function to localize a string
@@ -34,8 +20,8 @@ NSString *_L(NSString *in)
 	return NSLocalizedStringFromTableInBundle (in, @"Localizable", b, @"");
 }
 
-@implementation MyTermColors
 
+@implementation MyTermColors
 
 /**
  * A special method called by SIMBL once the application has started and all classes are initialized.
@@ -46,14 +32,12 @@ NSString *_L(NSString *in)
 	NSError *err = nil;
 	/* Do some class posing */
 	[TTView jr_swizzleMethod:@selector(colorForANSIColor:) withMethod:@selector(colorForANSIColor2:) error:&err];
+	[TTProfile jr_swizzleMethod:@selector(valueForUndefinedKey:) withMethod:@selector(valueForUndefinedKey2:) error:&err];
 
 	/* Add the new tab */
 	plugin->ctl = [TTAppPrefsController sharedPreferencesController];
-	ProfileTableViewDelegate *deleg = [[ProfileTableViewDelegate alloc] init: plugin->ctl];
 	[plugin->ctl window];			/* Force instanciation of the Controller */
 	[plugin->ctl addColorsTab];		/* Add the colors tab */
-	[plugin->ctl setProfileTableViewDelegate: deleg];
-	//[plugin->ctl addKeysToSave];
 }
 
 + (void) redrawWindows
@@ -79,64 +63,12 @@ NSString *_L(NSString *in)
 	return plugin;
 }
 
-- (IBAction) setRed: (id)sender
+/**
+ * Returns the profiles controller instance
+ */
+- (id) profilesController
 {
-	[self->ctl setvtRedColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
+	return [ctl profilesController];
 }
-- (IBAction) setBRed: (id)sender
-{
-	[self->ctl setvtBrightRedColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
-- (IBAction) setGreen: (id)sender
-{
-	[self->ctl setvtGreenColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
-- (IBAction) setBGreen: (id)sender
-{
-	[self->ctl setvtBrightGreenColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
-- (IBAction) setYellow: (id)sender
-{
-	[self->ctl setvtYellowColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
-- (IBAction) setBYellow: (id)sender
-{
-	[self->ctl setvtBrightYellowColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
-- (IBAction) setBlue: (id)sender
-{
-	[self->ctl setvtBlueColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
-- (IBAction) setBBlue: (id)sender
-{
-	[self->ctl setvtBrightBlueColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
-- (IBAction) setMagenta: (id)sender
-{
-	[self->ctl setvtMagentaColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
-- (IBAction) setBMagenta: (id)sender
-{
-	[self->ctl setvtBrightMagentaColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
-- (IBAction) setCyan: (id)sender
-{
-	[self->ctl setvtCyanColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
-- (IBAction) setBCyan: (id)sender
-{
-	[self->ctl setvtBrightCyanColor: [sender color] withProfile: [[[self->ctl profilesController] selectedObjects] objectAtIndex: 0]];
-	[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
-}
+
 @end
