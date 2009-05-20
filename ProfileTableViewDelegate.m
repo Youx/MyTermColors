@@ -12,7 +12,7 @@
 
 @implementation ProfileTableViewDelegate
 
-- (id) init: (MyTTAppPrefsController *)ctrl
+- (id) init: (TTAppPrefsController *)ctrl
 {
 	self->ctl = ctrl;
 	return self;

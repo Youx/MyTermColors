@@ -15,10 +15,13 @@
 #import "TTProfileArrayController.h"
 #import "MyTTAppPrefsController.h"
 #import "TTProfile.h"
+#import "TTView.h"
 
 #import <objc/objc-runtime.h>
 #import <objc/objc-class.h>
 #import <uuid/uuid.h>
+
+#import "JRSwizzle.h"
 
 @class TTView;
 
@@ -40,18 +43,15 @@ NSString *_L(NSString *in)
 + (void) load
 {
 	MyTermColors* plugin = [MyTermColors sharedInstance];
+	NSError *err = nil;
 	/* Do some class posing */
-	[MyTTView poseAsClass: [TTView class]];
-	[MyTTAppPrefsController poseAsClass: [TTAppPrefsController class]];
-	//[[plugin->ctl profilesController] reloadData];
-
+	[TTView jr_swizzleMethod:@selector(colorForANSIColor:) withMethod:@selector(colorForANSIColor2:) error:&err];
 
 	/* Add the new tab */
-	plugin->ctl = [MyTTAppPrefsController sharedPreferencesController];
+	plugin->ctl = [TTAppPrefsController sharedPreferencesController];
 	ProfileTableViewDelegate *deleg = [[ProfileTableViewDelegate alloc] init: plugin->ctl];
 	[plugin->ctl window];			/* Force instanciation of the Controller */
 	[plugin->ctl addColorsTab];		/* Add the colors tab */
-
 	[plugin->ctl setProfileTableViewDelegate: deleg];
 	//[plugin->ctl addKeysToSave];
 }

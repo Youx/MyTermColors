@@ -7,16 +7,18 @@
 //
 
 
-@class MyTTAppPrefsController;
+@class TTAppPrefsController;
 
 #import <Cocoa/Cocoa.h>
+
+
 
 NSString *_L(NSString *in);
 
 @interface MyTermColors : NSObject {
 	@public
 	IBOutlet NSView *colorsView;
-	MyTTAppPrefsController *ctl;
+	TTAppPrefsController *ctl;
 }
 + (void) load;
 + (void) redrawWindows;

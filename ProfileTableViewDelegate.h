@@ -10,8 +10,8 @@
 #import "MyTTAppPrefsController.h"
 
 @interface ProfileTableViewDelegate : NSObject {
-	MyTTAppPrefsController *ctl;
+	TTAppPrefsController *ctl;
 }
-- (id) init: (MyTTAppPrefsController *)ctrl;
+- (id) init: (TTAppPrefsController *)ctrl;
 - (void) tableViewSelectionDidChange: (NSNotification *)aNotification;
 @end

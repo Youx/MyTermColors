@@ -11,14 +11,7 @@
 #import "TTProfile.h"
 #import "ProfileTableViewDelegate.h"
 
-@implementation MyTTAppPrefsController
-
-- (id)init
-{
-	TTAppPrefsController *res = [super init];
-	
-	return res;
-}
+@implementation TTAppPrefsController (MyTerm)
 
 - (void)setProfileTableViewDelegate: (id)delegate
 {
@@ -120,122 +113,134 @@
 
 /* Red setter and getter */
 - (void)setvtRedColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtRed"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtRed"];
 }
 - (id)vtRedColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtRed"] == nil)
 		[self setvtRedColor: [NSColor colorWithDeviceRed: 0.64 green: 0.34 blue: 0.34 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtRed"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtRed"]];
 }
 
 /* Bright Red setter and getter */
 - (void)setvtBrightRedColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtBRed"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtBRed"];
 }
 - (id)vtBrightRedColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtBRed"] == nil)
 		[self setvtBrightRedColor: [NSColor colorWithDeviceRed: 0.64 green: 0.34 blue: 0.34 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtBRed"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtBRed"]];
 }
 
 /* Green setter and getter */
 - (void)setvtGreenColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtGreen"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtGreen"];
 }
 - (id)vtGreenColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtGreen"] == nil)
 		[self setvtGreenColor: [NSColor colorWithDeviceRed: 0.48 green: 0.77 blue: 0.44 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtGreen"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtGreen"]];
 }
 
 /* Bright Green setter and getter */
 - (void)setvtBrightGreenColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtBGreen"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtBGreen"];
 }
 - (id)vtBrightGreenColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtBGreen"] == nil)
 		[self setvtBrightGreenColor: [NSColor colorWithDeviceRed: 0.48 green: 0.77 blue: 0.44 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtBGreen"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtBGreen"]];
 }
 
 /* Yellow setter and getter */
 - (void)setvtYellowColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtYellow"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtYellow"];
 }
 - (id)vtYellowColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtYellow"] == nil)
 		[self setvtYellowColor: [NSColor colorWithDeviceRed: 0.87 green: 0.88 blue: 0.31 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtYellow"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtYellow"]];
 }
 
 /* Bright Yellow setter and getter */
 - (void)setvtBrightYellowColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtBYellow"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtBYellow"];
 }
 - (id)vtBrightYellowColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtBYellow"] == nil)
 		[self setvtBrightYellowColor: [NSColor colorWithDeviceRed: 0.87 green: 0.88 blue: 0.31 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtBYellow"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtBYellow"]];
 }
 
 /* Blue setter and getter */
 - (void)setvtBlueColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtBlue"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtBlue"];
 }
 - (id)vtBlueColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtBlue"] == nil)
 		[self setvtBlueColor: [NSColor colorWithDeviceRed: 0.31 green: 0.51 blue: 0.70 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtBlue"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtBlue"]];
 }
 
 /* Bright Blue setter and getter */
 - (void)setvtBrightBlueColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtBBlue"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtBBlue"];
 }
 - (id)vtBrightBlueColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtBBlue"] == nil)
 		[self setvtBrightBlueColor: [NSColor colorWithDeviceRed: 0.39 green: 0.58 blue: 0.76 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtBBlue"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtBBlue"]];
 }
 
 /* Magenta setter and getter */
 - (void)setvtMagentaColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtMagenta"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtMagenta"];
 }
 - (id)vtMagentaColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtMagenta"] == nil)
 		[self setvtMagentaColor: [NSColor colorWithDeviceRed: 0.72 green: 0.505 blue: 0.675 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtMagenta"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtMagenta"]];
 }
 
 /* Bright Magenta setter and getter */
 - (void)setvtBrightMagentaColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtBMagenta"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtBMagenta"];
 }
 - (id)vtBrightMagentaColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtBMagenta"] == nil)
 		[self setvtBrightMagentaColor: [NSColor colorWithDeviceRed: 0.784 green: 0.4 blue: 0.705 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtBMagenta"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtBMagenta"]];
 }
 
 /* Cyan setter and getter */
 - (void)setvtCyanColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtCyan"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtCyan"];
 }
 - (id)vtCyanColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtCyan"] == nil)
 		[self setvtCyanColor: [NSColor colorWithDeviceRed: 0.53 green: 0.53 blue: 0.625 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtCyan"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtCyan"]];
 }
 
 /* Bright Cyan setter and getter */
 - (void)setvtBrightCyanColor: (NSColor *)color withProfile:(TTProfile *)p {
-	[p setScopeValue:color forKey:@"vtBCyan"];
+	NSData *theData=[NSArchiver archivedDataWithRootObject:color];
+	[p setScopeValue:theData forKey:@"vtBCyan"];
 }
 - (id)vtBrightCyanColorForProfile:(TTProfile *)p {
 	if ([p effectiveValueForKey:@"vtBCyan"] == nil)
 		[self setvtBrightCyanColor: [NSColor colorWithDeviceRed: 0.53 green: 0.53 blue: 0.625 alpha: 1.0] withProfile: p];
-	return [p effectiveValueForKey:@"vtBCyan"];
+	return [NSUnarchiver unarchiveObjectWithData: [p effectiveValueForKey:@"vtBCyan"]];
 }
 
 

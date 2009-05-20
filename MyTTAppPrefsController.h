@@ -13,9 +13,7 @@
 #import "ProfileTableViewDelegate.h"
 #import "TTProfile.h"
 
-@interface MyTTAppPrefsController : TTAppPrefsController
-{
-}
+@interface TTAppPrefsController (MyTerm)
 
 - (void) addColorsTab;
 - (void) setColorWells: (TTProfile *)p;

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		9A1445A80FC30B1100A791C0 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1445A70FC30B1100A791C0 /* JRSwizzle.m */; };
 		9A39AA3E0CDDD1E700E95DF9 /* MyTTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */; };
 		9AAF80810CD7EBE300ADF8D4 /* MyTermColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */; };
 		9AD68AA20FA11D7F000500AF /* MyTTAppPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */; };
@@ -25,6 +26,8 @@
 		32DBCF630370AF2F00C91783 /* MyTermColors_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTermColors_Prefix.pch; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* MyTermColors.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTermColors.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1445A60FC30B1100A791C0 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		9A1445A70FC30B1100A791C0 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		9A2222550F4087B600F12E27 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
 		9A2222560F4087C700F12E27 /* TTAccessibleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAccessibleView.h; sourceTree = "<group>"; };
 		9A39AA3C0CDDD1E700E95DF9 /* MyTTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTView.h; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9A1445A60FC30B1100A791C0 /* JRSwizzle.h */,
+				9A1445A70FC30B1100A791C0 /* JRSwizzle.m */,
 				9AD68AA00FA11D7F000500AF /* MyTTAppPrefsController.h */,
 				9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */,
 				9A39AAE20CDDD42400E95DF9 /* imported */,
@@ -217,6 +222,7 @@
 				9A39AA3E0CDDD1E700E95DF9 /* MyTTView.m in Sources */,
 				9AD68AA20FA11D7F000500AF /* MyTTAppPrefsController.m in Sources */,
 				9ADEC59B0FC1AB3800D6CB7F /* ProfileTableViewDelegate.m in Sources */,
+				9A1445A80FC30B1100A791C0 /* JRSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

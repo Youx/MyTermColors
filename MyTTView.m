@@ -11,12 +11,13 @@
 #import "MyTTAppPrefsController.h"
 #import "TTProfile.h"
 
-@implementation MyTTView
+@implementation TTView (MyTerm)
 
-- (id)colorForANSIColor:(unsigned int)fp8 {
-	id def = [super colorForANSIColor: fp8];
+- (id)colorForANSIColor2:(unsigned int)fp8 {
+	/* get the default value returned by the old function */
+	id def = [self colorForANSIColor2: fp8];
 	TTProfile *p = (TTProfile *)self->_profile;
-	MyTTAppPrefsController *ctl = [MyTTAppPrefsController sharedPreferencesController];
+	TTAppPrefsController *ctl = [TTAppPrefsController sharedPreferencesController];
 	switch(fp8) {
 /*		case 1:
 			return [p vtBlackColor];

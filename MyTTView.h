@@ -9,7 +9,6 @@
 #import <Cocoa/Cocoa.h>
 #import "TTView.h"
 
-@interface MyTTView : TTView {
-}
-- (id)colorForANSIColor:(unsigned int)fp8;
+@interface TTView (MyTerm)
+- (id)colorForANSIColor2:(unsigned int)fp8;
 @end
