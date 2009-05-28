@@ -29,6 +29,10 @@
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A1445A60FC30B1100A791C0 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		9A1445A70FC30B1100A791C0 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		9A1F7E380FCEFC2F00DCFD85 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/colors_selector.strings; sourceTree = "<group>"; };
+		9A1F7E3C0FCEFCC000DCFD85 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Spanish; path = Spanish.lproj/colors_selector.xib; sourceTree = "<group>"; };
+		9A1F7E3D0FCEFCCB00DCFD85 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A1F7E3E0FCEFCD600DCFD85 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A2222550F4087B600F12E27 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
 		9A2222560F4087C700F12E27 /* TTAccessibleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAccessibleView.h; sourceTree = "<group>"; };
 		9A39AA3C0CDDD1E700E95DF9 /* MyTTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTView.h; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				8D5B49AF048680CD000E48DA /* Resources */,
 				8D5B49B1048680CD000E48DA /* Sources */,
 				8D5B49B3048680CD000E48DA /* Frameworks */,
+				9A1F7E460FCEFD8600DCFD85 /* Create package with Iceberg */,
+				9A1F7E6A0FCEFF0200DCFD85 /* Create DMG */,
 			);
 			buildRules = (
 			);
@@ -201,6 +207,13 @@
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "MyTermColors" */;
 			compatibilityVersion = "Xcode 3.0";
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Spanish,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* MyTermColors */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,6 +237,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9A1F7E460FCEFD8600DCFD85 /* Create package with Iceberg */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/build/Release/MyTermColors.bundle",
+				"$(SRCROOT)/MyTermColors.packproj",
+				"$(SRCROOT)/ScriptPreflight.txt",
+				"$(SRCROOT)/ScriptPostflight.txt",
+			);
+			name = "Create package with Iceberg";
+			outputPaths = (
+				"$(SRCROOT)/build/MyTermColors.pkg",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/freeze MyTermColors.packproj";
+		};
+		9A1F7E6A0FCEFF0200DCFD85 /* Create DMG */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/MyTermColors.dmgCanvas",
+				"$(SRCROOT)/build/MyTermColors.pkg",
+			);
+			name = "Create DMG";
+			outputPaths = (
+				"$(SRCROOT)/build/MyTermColors-1.0a.dmg",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Create the DMG file\n/usr/local/bin/dmgcanvas -t MyTermColors.dmgCanvas -o build/MyTermColors-1.0a.dmg";
+		};
 		9AB559E90FC4401500F73DB4 /* Localize nibs from English */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,15 +283,17 @@
 				"$(SRCROOT)/English.lproj/colors_selector.strings",
 				"$(SRCROOT)/French.lproj/colors_selector.strings",
 				"$(SRCROOT)/German.lproj/colors_selector.strings",
+				"$(SRCROOT)/Spanish.lproj/colors_selector.strings",
 			);
 			name = "Localize nibs from English";
 			outputPaths = (
+				"$(SRCROOT)/Spanish.lproj/colors_selector.xib",
 				"$(SRCROOT)/French.lproj/colors_selector.xib",
 				"$(SRCROOT)/German.lproj/colors_selector.xib",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "ibtool --strings-file French.lproj/colors_selector.strings --write French.lproj/colors_selector.xib English.lproj/colors_selector.xib\nibtool --strings-file German.lproj/colors_selector.strings --write German.lproj/colors_selector.xib English.lproj/colors_selector.xib\n";
+			shellScript = "ibtool --strings-file French.lproj/colors_selector.strings --write French.lproj/colors_selector.xib English.lproj/colors_selector.xib\nibtool --strings-file German.lproj/colors_selector.strings --write German.lproj/colors_selector.xib English.lproj/colors_selector.xib\nibtool --strings-file Spanish.lproj/colors_selector.strings --write Spanish.lproj/colors_selector.xib English.lproj/colors_selector.xib\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -269,6 +320,7 @@
 				089C167EFE841241C02AAC07 /* English */,
 				9ADEC7C20FC2247700D6CB7F /* French */,
 				9A76E1740FC233DD00B70E8E /* German */,
+				9A1F7E3D0FCEFCCB00DCFD85 /* Spanish */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -279,6 +331,7 @@
 				9AB55A5D0FC44B0400F73DB4 /* English */,
 				9AB55A5F0FC44B4C00F73DB4 /* French */,
 				9AB55A600FC44B6B00F73DB4 /* German */,
+				9A1F7E380FCEFC2F00DCFD85 /* Spanish */,
 			);
 			name = colors_selector.strings;
 			sourceTree = "<group>";
@@ -289,6 +342,7 @@
 				9AF7C3E60FC0A0E8007B4CE7 /* English */,
 				9ADEC7B40FC223CD00D6CB7F /* French */,
 				9ADEC83F0FC22E4200D6CB7F /* German */,
+				9A1F7E3C0FCEFCC000DCFD85 /* Spanish */,
 			);
 			name = colors_selector.xib;
 			sourceTree = "<group>";
@@ -299,6 +353,7 @@
 				9ADEC7DD0FC2267200D6CB7F /* English */,
 				9ADEC7E10FC2269400D6CB7F /* French */,
 				9A76E16F0FC2337600B70E8E /* German */,
+				9A1F7E3E0FCEFCD600DCFD85 /* Spanish */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

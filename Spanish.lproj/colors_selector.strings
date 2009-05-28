@@ -1,0 +1,53 @@
+﻿/* Class = "NSTextFieldCell"; title = "Red"; ObjectID = "8"; */
+"8.title" = "Rojo";
+
+/* Class = "NSTextFieldCell"; title = "Green"; ObjectID = "10"; */
+"10.title" = "Verde";
+
+/* Class = "NSTextFieldCell"; title = "Yellow"; ObjectID = "12"; */
+"12.title" = "Amarillo";
+
+/* Class = "NSTextFieldCell"; title = "Blue"; ObjectID = "14"; */
+"14.title" = "Azul";
+
+/* Class = "NSTextFieldCell"; title = "Magenta"; ObjectID = "16"; */
+"16.title" = "Magenta";
+
+/* Class = "NSTextFieldCell"; title = "Cyan"; ObjectID = "19"; */
+"19.title" = "Cian";
+
+/* Class = "NSTextFieldCell"; title = "Cyan"; ObjectID = "32"; */
+"32.title" = "Cian";
+
+/* Class = "NSTextFieldCell"; title = "Magenta"; ObjectID = "33"; */
+"33.title" = "Magenta";
+
+/* Class = "NSTextFieldCell"; title = "Blue"; ObjectID = "34"; */
+"34.title" = "Azul";
+
+/* Class = "NSTextFieldCell"; title = "Yellow"; ObjectID = "35"; */
+"35.title" = "Amarillo";
+
+/* Class = "NSTextFieldCell"; title = "Green"; ObjectID = "36"; */
+"36.title" = "Verde";
+
+/* Class = "NSTextFieldCell"; title = "Red"; ObjectID = "37"; */
+"37.title" = "Rojo";
+
+/* Class = "NSBox"; title = "Normal"; ObjectID = "69"; */
+"69.title" = "Normal";
+
+/* Class = "NSBox"; title = "Bright/Bold"; ObjectID = "70"; */
+"70.title" = "Clara/Negrilla";
+
+/* Class = "NSTextFieldCell"; title = "White"; ObjectID = "138"; */
+"138.title" = "Blanco";
+
+/* Class = "NSTextFieldCell"; title = "White"; ObjectID = "141"; */
+"141.title" = "Blanco";
+
+/* Class = "NSTextFieldCell"; title = "Black"; ObjectID = "148"; */
+"148.title" = "Negro";
+
+/* Class = "NSTextFieldCell"; title = "Black"; ObjectID = "151"; */
+"151.title" = "Negro";

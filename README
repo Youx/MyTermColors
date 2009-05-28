@@ -7,10 +7,10 @@ Welcome to MyTermColors!
 Getting the code
 ----------------
 
-Check out http://github.com/Youx/mytermcolors for the wiki, bug tracking, etc...
+Check out http://github.com/Youx/MyTermColors for the wiki, bug tracking, etc...
 The bleeding edge code can be grabbed from the git repository on github :
 
-	$ git clone git://github.com/Youx/mytermcolors.git
+	$ git clone git://github.com/Youx/MyTermColors.git
 
 For information about Git, please see http://www.git-scm.com
 
@@ -21,10 +21,13 @@ How to build MyTermColors
 To build MyTermColors.bundle from source, you will need : 
 - a Mac
 - XCode
+- iceberg (http://s.sudre.free.fr/Software/Iceberg.html) to create a pkg installer file
+- dmgCanvas (http://www.araelium.com/dmgcanvas) to create a dmg containing the installer
 
 Open the project file in XCode, then hit build.
 
 This will create a MyTermColors.bundle in build/Release/
+and (if you have the Iceberg and dmgCanvas) a pkg and a dmg in build/
 
 
 How to install MyTermColors
@@ -33,8 +36,9 @@ How to install MyTermColors
 To use MyTermColors, you will need to have SIMBL installed.
 Grab it from here : http://www.culater.net/software/SIMBL/SIMBL.php
 
-Then, you just need to drop the MyTermColors.bundle into ~/Library/Application Support/SIMBL/Plugins/
+Then, you just need to drop the MyTermColors.bundle into ~/Library/Application Support/SIMBL/Plugins
 
+Or simply launch the installer and follow the instructions.
 
 Languages
 --------------
@@ -42,8 +46,10 @@ Languages
 English
 French
 German
+Spanish
 
-You can help too.
+You can help localize it too!
+
 
 Author(s)
 ---------
@@ -54,6 +60,7 @@ Hugo Camboulive (Youx) <hugo.camboulive [AT] gmail.com>
 Thanks
 ------
 
+My friend Matt "Killerabbit" for his Spanish translation.
 The TerminalColours project for some insight on using KVO bindings in nib files.
 Keevn7 for providing the nice pastel colors a long time ago (and awesome shell config files).
 Mike Solomon for creating SIMBL and the original TerminalColors
