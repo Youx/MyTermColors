@@ -41,10 +41,12 @@ NSString *_L(NSString *in)
 {
 	MyTermColors* plugin = [MyTermColors sharedInstance];
 	NSError *err = nil;
-	/* Do some class posing and method swizzling */
-	[MyColors poseAsClass: [NSColor class]];
-	[TTView jr_swizzleMethod:@selector(colorForANSIColor:) withMethod:@selector(colorForANSIColor2:) error:&err];
+	/* new for OSX 10.6 */
 	[TTProfile jr_swizzleMethod:@selector(valueForUndefinedKey:) withMethod:@selector(valueForUndefinedKey2:) error:&err];
+	[TTProfile jr_swizzleMethod:@selector(valueForKey:) withMethod:@selector(valueForKey2:) error:&err];
+	[TTProfile jr_swizzleMethod:@selector(setValue:forKey:) withMethod:@selector(setValue2:forKey:) error:&err];
+
+	[TTView jr_swizzleMethod:@selector(colorForANSIColor:adjustedRelativeToColor:) withMethod:@selector(colorForANSIColor2:adjustedRelativeToColor:) error:&err];
 
 	/* Add the new tab */
 	plugin->ctl = [TTAppPrefsController sharedPreferencesController];

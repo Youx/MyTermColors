@@ -21,6 +21,7 @@
 
 @interface TTView (MyTerm)
 
-- (id)colorForANSIColor2:(unsigned int)fp8;
+/* New for OSX 10.6 's Terminal.app */
+- (id)colorForANSIColor2:(unsigned long long)arg1 adjustedRelativeToColor:(id)arg2;
 
 @end

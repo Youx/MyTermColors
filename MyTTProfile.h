@@ -20,8 +20,8 @@
 
 @interface TTProfile (MyTerm)
 
-- (id)valueForKey:(id)key;
-- (void)setValue:(id)value forKey:(id)key;
+- (id)valueForKey2:(id)key;
+- (void)setValue2:(id)value forKey:(id)key;
 - (id)valueForUndefinedKey2:(id) key;
 
 @end

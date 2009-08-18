@@ -6,15 +6,14 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface TTAccessibleView : NSView
+@interface TTAccessibleView : NSObject
 {
 }
 
 - (BOOL)accessibilityIsIgnored;
-- (id)accessibilityAttributeValue:(id)fp8;
-- (id)accessibilityAttributeValue:(id)fp8 forParameter:(id)fp12;
-- (BOOL)accessibilityIsAttributeSettable:(id)fp8;
-- (void)accessibilitySetValue:(id)fp8 forAttribute:(id)fp12;
+- (id)accessibilityAttributeValue:(id)arg1;
+- (id)accessibilityAttributeValue:(id)arg1 forParameter:(id)arg2;
+- (BOOL)accessibilityIsAttributeSettable:(id)arg1;
+- (void)accessibilitySetValue:(id)arg1 forAttribute:(id)arg2;
 
 @end
-

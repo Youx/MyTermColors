@@ -4,43 +4,40 @@
  *     class-dump is Copyright (C) 1997-1998, 2000-2001, 2004-2006 by Steve Nygard.
  */
 
-@interface TTEditingArrayController : NSArrayController
+@interface TTEditingArrayController
 {
 	NSTableView *_tableView;
 }
 
-- (void)add:(id)fp8;
+- (void)add:(id)arg1;
 
 @end
 
-
-@interface TTProfileArrayController : TTEditingArrayController
+@interface TTProfileArrayController : TTEditingArrayController <NSOpenSavePanelDelegate>
 {
 	NSTextField *_commandField;
 }
 
 - (void)awakeFromNib;
 - (id)newObject;
-- (void)willAddObject:(id)fp8;
-- (void)willChangeValuesForArrangedKeys:(BOOL)fp8 objectKeys:(BOOL)fp12 indexKeys:(BOOL)fp16;
-- (void)didChangeValuesForArrangedKeys:(BOOL)fp8 objectKeys:(BOOL)fp12 indexKeys:(BOOL)fp16;
+- (void)willChangeValuesForArrangedKeys:(BOOL)arg1 objectKeys:(BOOL)arg2 indexKeys:(BOOL)arg3;
+- (void)didChangeValuesForArrangedKeys:(BOOL)arg1 objectKeys:(BOOL)arg2 indexKeys:(BOOL)arg3;
 - (BOOL)canRemove;
 - (BOOL)canMakeDefault;
-- (void)makeDefault:(id)fp8;
-- (void)duplicate:(id)fp8;
-- (void)restoreDefaults:(id)fp8;
+- (void)makeDefault:(id)arg1;
+- (void)duplicate:(id)arg1;
+- (void)restoreDefaults:(id)arg1;
 - (BOOL)canExport;
-- (void)export:(id)fp8;
-- (void)exportPanelDidEnd:(id)fp8 returnCode:(int)fp12 contextInfo:(void *)fp16;
-- (void)import:(id)fp8;
-- (void)importPanelDidEnd:(id)fp8 returnCode:(int)fp12 contextInfo:(void *)fp16;
-- (BOOL)panel:(id)fp8 shouldShowFilename:(id)fp12;
+- (void)export:(id)arg1;
+- (void)exportPanelDidEnd:(id)arg1 returnCode:(long long)arg2 contextInfo:(void *)arg3;
+- (void)import:(id)arg1;
+- (void)importPanelDidEnd:(id)arg1 returnCode:(long long)arg2 contextInfo:(void *)arg3;
+- (BOOL)panel:(id)arg1 shouldShowFilename:(id)arg2;
 - (id)shouldRunCommandAtStartup;
-- (void)setShouldRunCommandAtStartup:(id)fp8;
-- (BOOL)tableView:(id)fp8 writeRowsWithIndexes:(id)fp12 toPasteboard:(id)fp16;
-- (id)tableView:(id)fp8 namesOfPromisedFilesDroppedAtDestination:(id)fp12 forDraggedRowsWithIndexes:(id)fp16;
-- (unsigned int)tableView:(id)fp8 validateDrop:(id)fp12 proposedRow:(int)fp16 proposedDropOperation:(unsigned int)fp20;
-- (BOOL)tableView:(id)fp8 acceptDrop:(id)fp12 row:(int)fp16 dropOperation:(unsigned int)fp20;
+- (void)setShouldRunCommandAtStartup:(id)arg1;
+- (BOOL)tableView:(id)arg1 writeRowsWithIndexes:(id)arg2 toPasteboard:(id)arg3;
+- (id)tableView:(id)arg1 namesOfPromisedFilesDroppedAtDestination:(id)arg2 forDraggedRowsWithIndexes:(id)arg3;
+- (unsigned long long)tableView:(id)arg1 validateDrop:(id)arg2 proposedRow:(long long)arg3 proposedDropOperation:(unsigned long long)arg4;
+- (BOOL)tableView:(id)arg1 acceptDrop:(id)arg2 row:(long long)arg3 dropOperation:(unsigned long long)arg4;
 
 @end
-

@@ -18,6 +18,7 @@
 
 #import "MyTTProfile.h"
 #import "MyTermColors.h"
+#import "MyColors.h"
 
 @implementation TTProfile (MyTerm)
 
@@ -25,7 +26,7 @@
  * Set the value for a vt*Color
  * NB : no need to swizzle this since its not overriden in the class
  */
-- (void)setValue:(id)value forKey:(id)key
+- (void)setValue2:(id)value forKey:(id)key
 {
 	if ([key hasPrefix: @"vt"] && [key hasSuffix: @"Color"]) {
 		[self setScopeValue:[NSArchiver archivedDataWithRootObject:value] forKey:key];
@@ -39,7 +40,7 @@
  * Return the set value for a vt*Color
  * NB : no need to swizzle this since its not overriden in the class
  */
-- (id)valueForKey:(id)key
+- (id)valueForKey2:(id)key
 {
 	NSData *d = nil;
 	if ([key hasPrefix: @"vt"] && [key hasSuffix: @"Color"]) {
@@ -54,7 +55,7 @@
 - (id)valueForUndefinedKey2:(id) key
 {
 	if ([key hasPrefix: @"vt"] && [key hasSuffix: @"Color"]) {
-		return [NSColor performSelector: NSSelectorFromString(key)];
+		return [MyColors performSelector: NSSelectorFromString(key)];
 	}
 	return [self valueForUndefinedKey2: key];
 }

@@ -7,9 +7,20 @@
 #import <Cocoa/Cocoa.h>
 #import "TTView.h"
 
-@class TTTableView;
+@interface TTTableView
+{
+	NSString *_emptyMessage;
+}
 
-@interface TTAppPrefsController : NSWindowController
+- (void)dealloc;
+- (id)emptyMessageAttributes;
+- (id)emptyMessage;
+- (void)setEmptyMessage:(id)arg1;
+- (void)drawRect:(struct CGRect)arg1;
+
+@end
+
+@interface TTAppPrefsController <NSWindowDelegate>
 {
 	NSMatrix *_defaultShellMatrix;
 	NSTextField *_defaultShellTextField;
@@ -31,30 +42,32 @@
 + (id)sharedPreferencesController;
 - (id)init;
 - (void)dealloc;
-- (void)applicationWillTerminate:(id)fp8;
+- (void)applicationWillTerminate:(id)arg1;
 - (void)windowDidLoad;
-- (id)windowWillReturnUndoManager:(id)fp8;
+- (id)windowWillReturnUndoManager:(id)arg1;
 - (id)undoManager;
-- (void)showWindow:(id)fp8;
-- (void)windowDidResignKey:(id)fp8;
-- (void)windowWillClose:(id)fp8;
+- (void)showWindow:(id)arg1;
+- (void)commitChanges;
+- (void)windowDidResignKey:(id)arg1;
+- (void)windowWillClose:(id)arg1;
 - (void)update;
-- (void)defaultShellChanged:(id)fp8;
-- (void)showEncodingCustomizationPane:(id)fp8;
-- (void)orderFrontFontPanel:(id)fp8;
+- (void)defaultShellChanged:(id)arg1;
+- (void)showEncodingCustomizationPane:(id)arg1;
+- (void)orderFrontFontPanel:(id)arg1;
 - (id)profilesController;
 - (id)selectedPaneIdentifier;
-- (void)setSelectedPaneIdentifier:(id)fp8;
-- (void)tabView:(id)fp8 willSelectTabViewItem:(id)fp12;
-- (void)tabView:(id)fp8 didSelectTabViewItem:(id)fp12;
-- (void)takeSelectedTabIndexFromToolbarItem:(id)fp8;
-- (id)toolbar:(id)fp8 itemForItemIdentifier:(id)fp12 willBeInsertedIntoToolbar:(BOOL)fp16;
-- (id)toolbarDefaultItemIdentifiers:(id)fp8;
-- (id)toolbarAllowedItemIdentifiers:(id)fp8;
-- (id)toolbarSelectableItemIdentifiers:(id)fp8;
+- (void)setSelectedPaneIdentifier:(id)arg1;
+- (void)tabView:(id)arg1 willSelectTabViewItem:(id)arg2;
+- (void)tabView:(id)arg1 didSelectTabViewItem:(id)arg2;
+- (void)takeSelectedTabIndexFromToolbarItem:(id)arg1;
+- (id)toolbar:(id)arg1 itemForItemIdentifier:(id)arg2 willBeInsertedIntoToolbar:(BOOL)arg3;
+- (id)toolbarDefaultItemIdentifiers:(id)arg1;
+- (id)toolbarAllowedItemIdentifiers:(id)arg1;
+- (id)toolbarSelectableItemIdentifiers:(id)arg1;
 - (id)thumbnailView;
-- (id)thumbnailOfSize:(struct _NSSize)fp8 forProfile:(id)fp16;
-- (void)changeFont:(id)fp8;
-- (void)observeValueForKeyPath:(id)fp8 ofObject:(id)fp12 change:(id)fp16 context:(void *)fp20;
+- (id)thumbnailOfSize:(struct CGSize)arg1 forProfile:(id)arg2;
+- (void)changeFont:(id)arg1;
+- (void)observeValueForKeyPath:(id)arg1 ofObject:(id)arg2 change:(id)arg3 context:(void *)arg4;
+- (void)tableViewDoubleClick:(id)arg1;
 
 @end
