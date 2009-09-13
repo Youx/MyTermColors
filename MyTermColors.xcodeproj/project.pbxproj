@@ -238,11 +238,11 @@
 			);
 			name = "Create DMG";
 			outputPaths = (
-				"$(SRCROOT)/build/MyTermColors-2.0.dmg",
+				"$(SRCROOT)/build/MyTermColors-2.0a.dmg",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Create the DMG file\nrm -rf build/MyTermColors-2.0.dmg\n/usr/local/bin/dmgcanvas -t MyTermColors.dmgCanvas -o build/MyTermColors-2.0.dmg";
+			shellScript = "# Create the DMG file\nrm -rf build/MyTermColors-2.0a.dmg\n/usr/local/bin/dmgcanvas -t MyTermColors.dmgCanvas -o build/MyTermColors-2.0a.dmg";
 		};
 		9AB559E90FC4401500F73DB4 /* Localize nibs from English */ = {
 			isa = PBXShellScriptBuildPhase;

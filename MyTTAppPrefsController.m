@@ -19,29 +19,6 @@
 #import "MyTTAppPrefsController.h"
 #import "MyTermColors.h"
 
-/* This is what you could call the ugliest hack ever :
- * We create a weird object that will allow access to 
- * the attribute of the original object we are looking for.
- * Blindly poking at the memory.
- */
-@interface MyTTAppPrefsController : NSObject {
-@public	id _1;
-@public	id _2;
-@public	id _3;
-@public	id _4;
-@public	id _5;
-@public	id _6;
-@public	id _7;
-@public	id _8;
-@public	id _9;
-@public	id _10;
-@public	id _11;
-@public	id _tabView; /* Here is the one we need! */
-}
-@end
-
-@implementation MyTTAppPrefsController
-@end
 
 @implementation NSObject (MyTTAppPrefsController)
 
@@ -53,12 +30,11 @@
 	MyTermColors *bundle = [MyTermColors sharedInstance];
 	NSTabViewItem *text_colors_tabview;
 	NSTabView *profile_settings;
-	MyTTAppPrefsController *tmp = self;
 
 	if (![NSBundle loadNibNamed:@"colors_selector" owner:bundle]) {
 		NSLog(@"Error loading Nib for MyTermColors!");
 	} else {
-		profile_settings = [[[[tmp->_tabView tabViewItemAtIndex: 1] view] subviews] objectAtIndex: 0];
+		profile_settings = [[[[[self valueForKey: @"tabView"] tabViewItemAtIndex: 1] view] subviews] objectAtIndex: 0];
 		/* Get the new tab from the nib and add it */
 		text_colors_tabview = [[NSTabViewItem alloc] init];
 		[text_colors_tabview setLabel: _L(@"Colors")];

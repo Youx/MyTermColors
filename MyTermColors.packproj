@@ -606,7 +606,7 @@
 						<key>Level</key>
 						<integer>0</integer>
 						<key>SpecArgument</key>
-						<string>/Library/InputManagers/SIMBL/SIMBL.bundle</string>
+						<string>/Library/ScriptingAdditions/SIMBL.osax</string>
 						<key>SpecProperty</key>
 						<string>CFBundleVersion</string>
 						<key>SpecTag</key>
@@ -616,7 +616,7 @@
 						<key>Status</key>
 						<true/>
 						<key>TestObject</key>
-						<string>8</string>
+						<string>0.9.4</string>
 						<key>TestOperator</key>
 						<string>&gt;=</string>
 					</dict>

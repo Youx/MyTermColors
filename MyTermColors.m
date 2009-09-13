@@ -48,6 +48,8 @@ NSString *_L(NSString *in)
 					       withMethod:@selector(valueForKey2:) error:&err];
 	[NSClassFromString(@"TTProfile") jr_swizzleMethod:@selector(setValue:forKey:)
 					       withMethod:@selector(setValue2:forKey:) error:&err];
+	[NSClassFromString(@"TTProfile") jr_swizzleMethod:@selector(initWithProfile:)
+					       withMethod:@selector(initWithProfile2:) error:&err];
 
 	[NSClassFromString(@"TTView") jr_swizzleMethod:@selector(colorForANSIColor:adjustedRelativeToColor:)
 					    withMethod:@selector(colorForANSIColor2:adjustedRelativeToColor:)

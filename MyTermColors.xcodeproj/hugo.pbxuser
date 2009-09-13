@@ -295,6 +295,64 @@
 			9A2531DF105D3C64002060CC /* PBXTextBookmark */ = 9A2531DF105D3C64002060CC /* PBXTextBookmark */;
 			9A2531E0105D3C64002060CC /* PlistBookmark */ = 9A2531E0105D3C64002060CC /* PlistBookmark */;
 			9A2531E1105D3C64002060CC /* PlistBookmark */ = 9A2531E1105D3C64002060CC /* PlistBookmark */;
+			9A2531E4105D4DAE002060CC /* PlistBookmark */ = 9A2531E4105D4DAE002060CC /* PlistBookmark */;
+			9A2531E5105D4DAE002060CC /* PBXTextBookmark */ = 9A2531E5105D4DAE002060CC /* PBXTextBookmark */;
+			9A2531E6105D4DAE002060CC /* PBXTextBookmark */ = 9A2531E6105D4DAE002060CC /* PBXTextBookmark */;
+			9A2531E7105D4DAE002060CC /* PBXTextBookmark */ = 9A2531E7105D4DAE002060CC /* PBXTextBookmark */;
+			9A2531E8105D4DAE002060CC /* PBXTextBookmark */ = 9A2531E8105D4DAE002060CC /* PBXTextBookmark */;
+			9A2531E9105D4DAE002060CC /* PBXTextBookmark */ = 9A2531E9105D4DAE002060CC /* PBXTextBookmark */;
+			9A2531EA105D4DAE002060CC /* PBXTextBookmark */ = 9A2531EA105D4DAE002060CC /* PBXTextBookmark */;
+			9A2531ED105D4DF2002060CC /* PBXTextBookmark */ = 9A2531ED105D4DF2002060CC /* PBXTextBookmark */;
+			9A2531EE105D4F3A002060CC /* PBXTextBookmark */ = 9A2531EE105D4F3A002060CC /* PBXTextBookmark */;
+			9A2531F5105D4FEB002060CC /* PBXTextBookmark */ = 9A2531F5105D4FEB002060CC /* PBXTextBookmark */;
+			9A2531F6105D4FEB002060CC /* PBXTextBookmark */ = 9A2531F6105D4FEB002060CC /* PBXTextBookmark */;
+			9A2531F7105D4FEB002060CC /* PBXTextBookmark */ = 9A2531F7105D4FEB002060CC /* PBXTextBookmark */;
+			9A2531F8105D4FEB002060CC /* PBXTextBookmark */ = 9A2531F8105D4FEB002060CC /* PBXTextBookmark */;
+			9A2531FB105D5012002060CC /* PBXTextBookmark */ = 9A2531FB105D5012002060CC /* PBXTextBookmark */;
+			9A2531FE105D5036002060CC /* PBXTextBookmark */ = 9A2531FE105D5036002060CC /* PBXTextBookmark */;
+			9A2531FF105D5036002060CC /* PBXTextBookmark */ = 9A2531FF105D5036002060CC /* PBXTextBookmark */;
+			9A253200105D5036002060CC /* PBXTextBookmark */ = 9A253200105D5036002060CC /* PBXTextBookmark */;
+			9A253201105D51BD002060CC /* PBXTextBookmark */ = 9A253201105D51BD002060CC /* PBXTextBookmark */;
+			9A253202105D51BD002060CC /* PBXTextBookmark */ = 9A253202105D51BD002060CC /* PBXTextBookmark */;
+			9A253203105D51BD002060CC /* PBXTextBookmark */ = 9A253203105D51BD002060CC /* PBXTextBookmark */;
+			9A253204105D51BD002060CC /* PBXTextBookmark */ = 9A253204105D51BD002060CC /* PBXTextBookmark */;
+			9A25320F105D52F9002060CC /* XCBuildMessageTextBookmark */ = 9A25320F105D52F9002060CC /* XCBuildMessageTextBookmark */;
+			9A253210105D52F9002060CC /* PBXTextBookmark */ = 9A253210105D52F9002060CC /* PBXTextBookmark */;
+			9A253211105D5387002060CC /* PBXTextBookmark */ = 9A253211105D5387002060CC /* PBXTextBookmark */;
+			9A253214105D53F9002060CC /* PBXTextBookmark */ = 9A253214105D53F9002060CC /* PBXTextBookmark */;
+			9A253215105D53F9002060CC /* PBXTextBookmark */ = 9A253215105D53F9002060CC /* PBXTextBookmark */;
+			9A253216105D53F9002060CC /* PBXTextBookmark */ = 9A253216105D53F9002060CC /* PBXTextBookmark */;
+			9A253217105D53F9002060CC /* PBXTextBookmark */ = 9A253217105D53F9002060CC /* PBXTextBookmark */;
+			9A25321A105D54E1002060CC /* PBXTextBookmark */ = 9A25321A105D54E1002060CC /* PBXTextBookmark */;
+			9A25321B105D54E1002060CC /* PBXTextBookmark */ = 9A25321B105D54E1002060CC /* PBXTextBookmark */;
+			9A25321C105D54E1002060CC /* PBXTextBookmark */ = 9A25321C105D54E1002060CC /* PBXTextBookmark */;
+			9A25321D105D54E1002060CC /* PBXTextBookmark */ = 9A25321D105D54E1002060CC /* PBXTextBookmark */;
+			9A253220105D5568002060CC /* PBXTextBookmark */ = 9A253220105D5568002060CC /* PBXTextBookmark */;
+			9A253223105D55A0002060CC /* PBXTextBookmark */ = 9A253223105D55A0002060CC /* PBXTextBookmark */;
+			9A253226105D5610002060CC /* PBXTextBookmark */ = 9A253226105D5610002060CC /* PBXTextBookmark */;
+			9A253229105D56A7002060CC /* PBXTextBookmark */ = 9A253229105D56A7002060CC /* PBXTextBookmark */;
+			9A25322C105D5742002060CC /* PBXTextBookmark */ = 9A25322C105D5742002060CC /* PBXTextBookmark */;
+			9A25322F105D57DC002060CC /* PBXTextBookmark */ = 9A25322F105D57DC002060CC /* PBXTextBookmark */;
+			9A253230105D5803002060CC /* PBXTextBookmark */ = 9A253230105D5803002060CC /* PBXTextBookmark */;
+			9A253235105D5910002060CC /* PBXTextBookmark */ = 9A253235105D5910002060CC /* PBXTextBookmark */;
+			9A253236105D5910002060CC /* PBXTextBookmark */ = 9A253236105D5910002060CC /* PBXTextBookmark */;
+			9A253237105D5910002060CC /* PBXTextBookmark */ = 9A253237105D5910002060CC /* PBXTextBookmark */;
+			9A253238105D5910002060CC /* PBXTextBookmark */ = 9A253238105D5910002060CC /* PBXTextBookmark */;
+			9A253239105D5910002060CC /* PBXTextBookmark */ = 9A253239105D5910002060CC /* PBXTextBookmark */;
+			9A25323A105D5910002060CC /* PBXTextBookmark */ = 9A25323A105D5910002060CC /* PBXTextBookmark */;
+			9A25323B105D5910002060CC /* PBXTextBookmark */ = 9A25323B105D5910002060CC /* PBXTextBookmark */;
+			9A25323C105D5910002060CC /* PBXTextBookmark */ = 9A25323C105D5910002060CC /* PBXTextBookmark */;
+			9A25323D105D5910002060CC /* PBXTextBookmark */ = 9A25323D105D5910002060CC /* PBXTextBookmark */;
+			9A25323E105D5910002060CC /* PBXTextBookmark */ = 9A25323E105D5910002060CC /* PBXTextBookmark */;
+			9A25323F105D5910002060CC /* PBXTextBookmark */ = 9A25323F105D5910002060CC /* PBXTextBookmark */;
+			9A253248105D5B18002060CC /* PBXTextBookmark */ = 9A253248105D5B18002060CC /* PBXTextBookmark */;
+			9A253249105D5B18002060CC /* PBXTextBookmark */ = 9A253249105D5B18002060CC /* PBXTextBookmark */;
+			9A25324A105D5B18002060CC /* PBXTextBookmark */ = 9A25324A105D5B18002060CC /* PBXTextBookmark */;
+			9A25324B105D5B18002060CC /* PBXTextBookmark */ = 9A25324B105D5B18002060CC /* PBXTextBookmark */;
+			9A25324C105D5B18002060CC /* PBXTextBookmark */ = 9A25324C105D5B18002060CC /* PBXTextBookmark */;
+			9A25324D105D5B18002060CC /* PBXTextBookmark */ = 9A25324D105D5B18002060CC /* PBXTextBookmark */;
+			9A25324E105D5B18002060CC /* PBXTextBookmark */ = 9A25324E105D5B18002060CC /* PBXTextBookmark */;
+			9A25324F105D5B18002060CC /* PBXTextBookmark */ = 9A25324F105D5B18002060CC /* PBXTextBookmark */;
 			9A88B244105B29FF002E493A = 9A88B244105B29FF002E493A /* PBXTextBookmark */;
 			9A88B245105B29FF002E493A = 9A88B245105B29FF002E493A /* PBXTextBookmark */;
 			9A88B246105B29FF002E493A = 9A88B246105B29FF002E493A /* PBXTextBookmark */;
@@ -350,16 +408,16 @@
 	};
 	9A1445A60FC30B1100A791C0 /* JRSwizzle.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {864, 424}}";
+			sepNavIntBoundsRect = "{{0, 0}, {864, 462}}";
 			sepNavSelRange = "{383, 88}";
 			sepNavVisRange = "{0, 574}";
 		};
 	};
 	9A1445A70FC30B1100A791C0 /* JRSwizzle.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {864, 1586}}";
+			sepNavIntBoundsRect = "{{0, 0}, {864, 1573}}";
 			sepNavSelRange = "{955, 0}";
-			sepNavVisRange = "{237, 1125}";
+			sepNavVisRange = "{236, 1141}";
 		};
 	};
 	9A1F7E380FCEFC2F00DCFD85 /* Spanish */ = {
@@ -496,7 +554,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 43";
 		rLen = 0;
-		rLoc = 2113;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 893;
 		vrLoc = 798;
@@ -566,7 +624,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 43";
 		rLen = 0;
-		rLoc = 2113;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 893;
 		vrLoc = 798;
@@ -676,7 +734,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 87";
 		rLen = 0;
-		rLoc = 2913;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 555;
 		vrLoc = 2302;
@@ -686,7 +744,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 87";
 		rLen = 0;
-		rLoc = 2913;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 594;
 		vrLoc = 2303;
@@ -696,7 +754,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 87";
 		rLen = 0;
-		rLoc = 2913;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 610;
 		vrLoc = 2303;
@@ -706,7 +764,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 87";
 		rLen = 0;
-		rLoc = 2913;
+		rLoc = 3057;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 2303;
@@ -716,7 +774,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 56";
 		rLen = 0;
-		rLoc = 2226;
+		rLoc = 2370;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 1674;
@@ -766,7 +824,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 32";
 		rLen = 0;
-		rLoc = 1618;
+		rLoc = 1093;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 798;
@@ -785,7 +843,7 @@
 		isa = PBXTextBookmark;
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		rLen = 20;
-		rLoc = 2063;
+		rLoc = 2207;
 		rType = 0;
 	};
 	9A25308A105D15FF002060CC /* PBXTextBookmark */ = {
@@ -803,7 +861,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 21";
 		rLen = 0;
-		rLoc = 1389;
+		rLoc = 864;
 		rType = 0;
 		vrLen = 688;
 		vrLoc = 803;
@@ -833,7 +891,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 53";
 		rLen = 0;
-		rLoc = 2154;
+		rLoc = 2298;
 		rType = 0;
 		vrLen = 755;
 		vrLoc = 1661;
@@ -854,7 +912,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 51;
+		rLoc = 78;
 		rType = 1;
 	};
 	9A253099105D17CD002060CC /* PBXTextBookmark */ = {
@@ -862,7 +920,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 52";
 		rLen = 0;
-		rLoc = 1739;
+		rLoc = 3197;
 		rType = 0;
 		vrLen = 509;
 		vrLoc = 1464;
@@ -872,7 +930,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 52";
 		rLen = 0;
-		rLoc = 1739;
+		rLoc = 3197;
 		rType = 0;
 		vrLen = 509;
 		vrLoc = 1464;
@@ -922,7 +980,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 53";
 		rLen = 0;
-		rLoc = 2154;
+		rLoc = 2298;
 		rType = 0;
 		vrLen = 866;
 		vrLoc = 1550;
@@ -932,7 +990,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 61";
 		rLen = 0;
-		rLoc = 2227;
+		rLoc = 2371;
 		rType = 0;
 		vrLen = 1335;
 		vrLoc = 1251;
@@ -942,7 +1000,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 58";
 		rLen = 0;
-		rLoc = 2027;
+		rLoc = 2171;
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 1251;
@@ -992,7 +1050,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 55";
 		rLen = 0;
-		rLoc = 1983;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 1339;
 		vrLoc = 1251;
@@ -1002,7 +1060,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 60";
 		rLen = 0;
-		rLoc = 2158;
+		rLoc = 2302;
 		rType = 0;
 		vrLen = 1337;
 		vrLoc = 1251;
@@ -1012,7 +1070,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 61";
 		rLen = 0;
-		rLoc = 2227;
+		rLoc = 2371;
 		rType = 0;
 		vrLen = 1335;
 		vrLoc = 1251;
@@ -1022,7 +1080,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 61";
 		rLen = 0;
-		rLoc = 2227;
+		rLoc = 2371;
 		rType = 0;
 		vrLen = 1436;
 		vrLoc = 1149;
@@ -1042,7 +1100,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 52";
 		rLen = 0;
-		rLoc = 1739;
+		rLoc = 3197;
 		rType = 0;
 		vrLen = 1054;
 		vrLoc = 918;
@@ -1052,7 +1110,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 52";
 		rLen = 0;
-		rLoc = 1752;
+		rLoc = 3210;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 1023;
@@ -1062,7 +1120,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 52";
 		rLen = 0;
-		rLoc = 1752;
+		rLoc = 3210;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 1023;
@@ -1072,7 +1130,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 61";
 		rLen = 0;
-		rLoc = 2227;
+		rLoc = 2371;
 		rType = 0;
 		vrLen = 1436;
 		vrLoc = 1149;
@@ -1102,7 +1160,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 21";
 		rLen = 0;
-		rLoc = 1389;
+		rLoc = 864;
 		rType = 0;
 		vrLen = 1197;
 		vrLoc = 467;
@@ -1112,7 +1170,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 25";
 		rLen = 0;
-		rLoc = 1337;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 401;
@@ -1122,7 +1180,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 57";
 		rLen = 0;
-		rLoc = 1841;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 1186;
@@ -1132,7 +1190,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 22";
 		rLen = 0;
-		rLoc = 1116;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 802;
@@ -1142,7 +1200,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 39";
 		rLen = 0;
-		rLoc = 1388;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 1317;
@@ -1152,7 +1210,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 25";
 		rLen = 0;
-		rLoc = 1125;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 1107;
 		vrLoc = 649;
@@ -1162,7 +1220,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 58";
 		rLen = 0;
-		rLoc = 1907;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1114;
 		vrLoc = 1325;
@@ -1172,7 +1230,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 41";
 		rLen = 0;
-		rLoc = 1388;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 1030;
 		vrLoc = 649;
@@ -1182,7 +1240,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 60";
 		rLen = 0;
-		rLoc = 1812;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 1460;
@@ -1192,7 +1250,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 67";
 		rLen = 0;
-		rLoc = 1848;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1001;
 		vrLoc = 1554;
@@ -1202,7 +1260,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 67";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 995;
 		vrLoc = 1452;
@@ -1212,7 +1270,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 25";
 		rLen = 0;
-		rLoc = 1125;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 1056;
 		vrLoc = 863;
@@ -1222,7 +1280,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 58";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1281;
 		vrLoc = 1123;
@@ -1232,7 +1290,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 40";
 		rLen = 0;
-		rLoc = 1344;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 1035;
 		vrLoc = 803;
@@ -1242,7 +1300,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1492;
@@ -1252,7 +1310,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1492;
@@ -1262,7 +1320,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1492;
@@ -1272,7 +1330,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1492;
@@ -1282,7 +1340,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1492;
@@ -1292,7 +1350,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1492;
@@ -1302,7 +1360,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1492;
@@ -1312,7 +1370,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1492;
@@ -1322,7 +1380,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1492;
@@ -1332,7 +1390,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1492;
@@ -1342,7 +1400,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 1492;
@@ -1352,7 +1410,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 1492;
@@ -1362,7 +1420,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 1492;
@@ -1372,7 +1430,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 1492;
@@ -1382,7 +1440,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 1492;
@@ -1392,7 +1450,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 1492;
@@ -1402,7 +1460,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 1492;
@@ -1412,7 +1470,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 1492;
@@ -1422,7 +1480,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 1492;
@@ -1432,7 +1490,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 1492;
@@ -1442,7 +1500,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 1492;
@@ -1452,7 +1510,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 1492;
@@ -1462,7 +1520,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 1492;
@@ -1472,7 +1530,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 1492;
@@ -1482,7 +1540,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 1492;
@@ -1492,7 +1550,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 1492;
@@ -1502,7 +1560,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 1492;
@@ -1512,7 +1570,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 1492;
@@ -1522,7 +1580,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 1492;
@@ -1532,7 +1590,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 1492;
@@ -1542,7 +1600,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 1492;
@@ -1552,7 +1610,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 59";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1195;
 		vrLoc = 398;
@@ -1562,7 +1620,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 30";
 		rLen = 0;
-		rLoc = 1234;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 1093;
 		vrLoc = 398;
@@ -1573,7 +1631,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 39;
+		rLoc = 20;
 		rType = 1;
 	};
 	9A25315D105D26DD002060CC /* PBXTextBookmark */ = {
@@ -1581,7 +1639,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 36";
 		rLen = 0;
-		rLoc = 1337;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 1221;
 		vrLoc = 1495;
@@ -1591,7 +1649,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 1374;
@@ -1601,7 +1659,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 1374;
@@ -1611,7 +1669,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 1372;
@@ -1621,7 +1679,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 1372;
@@ -1631,7 +1689,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 1372;
@@ -1641,7 +1699,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 1372;
@@ -1651,7 +1709,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1295;
 		vrLoc = 1172;
@@ -1661,7 +1719,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 30";
 		rLen = 0;
-		rLoc = 1236;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 1117;
 		vrLoc = 290;
@@ -1671,7 +1729,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1222;
 		vrLoc = 1331;
@@ -1681,7 +1739,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 32";
 		rLen = 0;
-		rLoc = 1267;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 802;
@@ -1691,7 +1749,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1189;
 		vrLoc = 1068;
@@ -1701,7 +1759,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 54";
 		rLen = 0;
-		rLoc = 1679;
+		rLoc = 1123;
 		rType = 0;
 		vrLen = 1216;
 		vrLoc = 1306;
@@ -1711,7 +1769,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 1068;
@@ -1721,7 +1779,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1215;
 		vrLoc = 1068;
@@ -1731,7 +1789,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 61";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1233;
 		vrLoc = 1107;
@@ -1741,7 +1799,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 62";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1320;
 		vrLoc = 1251;
@@ -1751,7 +1809,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 62";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1316;
 		vrLoc = 1251;
@@ -1761,7 +1819,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 62";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1316;
 		vrLoc = 1251;
@@ -1772,7 +1830,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 60;
+		rLoc = 36;
 		rType = 1;
 	};
 	9A2531A7105D2B75002060CC /* PBXTextBookmark */ = {
@@ -1780,7 +1838,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 62";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1357;
 		vrLoc = 1246;
@@ -1790,7 +1848,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 62";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 1357;
 		vrLoc = 1246;
@@ -1800,7 +1858,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 70";
 		rLen = 0;
-		rLoc = 2113;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 1344;
 		vrLoc = 1246;
@@ -1840,7 +1898,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 68";
 		rLen = 0;
-		rLoc = 2018;
+		rLoc = 1473;
 		rType = 0;
 		vrLen = 755;
 		vrLoc = 838;
@@ -1850,7 +1908,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 56";
 		rLen = 0;
-		rLoc = 1802;
+		rLoc = 3299;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 1023;
@@ -1860,7 +1918,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 31";
 		rLen = 0;
-		rLoc = 1068;
+		rLoc = 2526;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 914;
@@ -1870,7 +1928,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 31";
 		rLen = 0;
-		rLoc = 1068;
+		rLoc = 2526;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 914;
@@ -1880,7 +1938,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 31";
 		rLen = 0;
-		rLoc = 1068;
+		rLoc = 2526;
 		rType = 0;
 		vrLen = 991;
 		vrLoc = 1100;
@@ -1920,7 +1978,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 68";
 		rLen = 0;
-		rLoc = 2018;
+		rLoc = 1473;
 		rType = 0;
 		vrLen = 1304;
 		vrLoc = 1291;
@@ -1940,7 +1998,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 31";
 		rLen = 0;
-		rLoc = 1068;
+		rLoc = 2526;
 		rType = 0;
 		vrLen = 1000;
 		vrLoc = 873;
@@ -1950,7 +2008,7 @@
 		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
 		name = "MyTTProfile.m: 31";
 		rLen = 0;
-		rLoc = 1068;
+		rLoc = 2526;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 0;
@@ -2000,7 +2058,7 @@
 		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
 		name = "MyTermColors.m: 58";
 		rLen = 0;
-		rLoc = 2157;
+		rLoc = 2301;
 		rType = 0;
 		vrLen = 686;
 		vrLoc = 2281;
@@ -2030,7 +2088,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 56";
 		rLen = 0;
-		rLoc = 1848;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 1046;
@@ -2040,7 +2098,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 39";
 		rLen = 0;
-		rLoc = 1332;
+		rLoc = 863;
 		rType = 0;
 		vrLen = 928;
 		vrLoc = 1253;
@@ -2096,6 +2154,586 @@
 		rLen = 0;
 		rLoc = 9223372036854775807;
 	};
+	9A2531E4105D4DAE002060CC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/hugo/Documents/Development/MyTermColors/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9A2531E5105D4DAE002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AD68AA00FA11D7F000500AF /* MyTTAppPrefsController.h */;
+		name = "MyTTAppPrefsController.h: 10";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 0;
+	};
+	9A2531E6105D4DAE002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
+		name = "MyTTAppPrefsController.m: 39";
+		rLen = 0;
+		rLoc = 863;
+		rType = 0;
+		vrLen = 943;
+		vrLoc = 1238;
+	};
+	9A2531E7105D4DAE002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */;
+		name = "MyTTView.m: 38";
+		rLen = 0;
+		rLoc = 1572;
+		rType = 0;
+		vrLen = 1410;
+		vrLoc = 211;
+	};
+	9A2531E8105D4DAE002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF807F0CD7EBE300ADF8D4 /* MyTermColors.h */;
+		name = "MyTermColors.h: 20";
+		rLen = 20;
+		rLoc = 815;
+		rType = 0;
+		vrLen = 1063;
+		vrLoc = 0;
+	};
+	9A2531E9105D4DAE002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB5598A0FC43C6B00F73DB4 /* MyTTProfile.h */;
+		name = "MyTTProfile.h: 20";
+		rLen = 0;
+		rLoc = 836;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 0;
+	};
+	9A2531EA105D4DAE002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 47";
+		rLen = 0;
+		rLoc = 3062;
+		rType = 0;
+		vrLen = 986;
+		vrLoc = 1023;
+	};
+	9A2531ED105D4DF2002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 48";
+		rLen = 0;
+		rLoc = 3084;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 1023;
+	};
+	9A2531EE105D4F3A002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 25";
+		rLen = 0;
+		rLoc = 919;
+		rType = 0;
+		vrLen = 1118;
+		vrLoc = 0;
+	};
+	9A2531F5105D4FEB002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB5598A0FC43C6B00F73DB4 /* MyTTProfile.h */;
+		name = "MyTTProfile.h: 22";
+		rLen = 0;
+		rLoc = 871;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 0;
+	};
+	9A2531F6105D4FEB002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 29";
+		rLen = 0;
+		rLoc = 988;
+		rType = 0;
+		vrLen = 1106;
+		vrLoc = 398;
+	};
+	9A2531F7105D4FEB002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 58";
+		rLen = 0;
+		rLoc = 2301;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 2281;
+	};
+	9A2531F8105D4FEB002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 58";
+		rLen = 0;
+		rLoc = 2301;
+		rType = 0;
+		vrLen = 805;
+		vrLoc = 2157;
+	};
+	9A2531FB105D5012002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 52";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 941;
+	};
+	9A2531FE105D5036002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 52";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 941;
+	};
+	9A2531FF105D5036002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 29";
+		rLen = 0;
+		rLoc = 988;
+		rType = 0;
+		vrLen = 1106;
+		vrLoc = 398;
+	};
+	9A253200105D5036002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 66";
+		rLen = 0;
+		rLoc = 3263;
+		rType = 0;
+		vrLen = 953;
+		vrLoc = 1227;
+	};
+	9A253201105D51BD002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB5598A0FC43C6B00F73DB4 /* MyTTProfile.h */;
+		name = "MyTTProfile.h: 22";
+		rLen = 0;
+		rLoc = 871;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 0;
+	};
+	9A253202105D51BD002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB55AC90FC4526900F73DB4 /* MyColors.m */;
+		name = "MyColors.m: 5";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 1147;
+		vrLoc = 860;
+	};
+	9A253203105D51BD002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 51";
+		rLen = 0;
+		rLoc = 2922;
+		rType = 0;
+		vrLen = 996;
+		vrLoc = 1184;
+	};
+	9A253204105D51BD002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 30";
+		rLen = 0;
+		rLoc = 988;
+		rType = 0;
+		vrLen = 1152;
+		vrLoc = 67;
+	};
+	9A25320F105D52F9002060CC /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expression does not have a valid object type";
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 46;
+		rType = 1;
+	};
+	9A253210105D52F9002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 30";
+		rLen = 0;
+		rLoc = 988;
+		rType = 0;
+		vrLen = 1154;
+		vrLoc = 398;
+	};
+	9A253211105D5387002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 28";
+		rLen = 0;
+		rLoc = 980;
+		rType = 0;
+		vrLen = 1157;
+		vrLoc = 398;
+	};
+	9A253214105D53F9002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 32";
+		rLen = 0;
+		rLoc = 988;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 398;
+	};
+	9A253215105D53F9002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB5598A0FC43C6B00F73DB4 /* MyTTProfile.h */;
+		name = "MyTTProfile.h: 22";
+		rLen = 0;
+		rLoc = 865;
+		rType = 0;
+		vrLen = 988;
+		vrLoc = 0;
+	};
+	9A253216105D53F9002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 52";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 945;
+	};
+	9A253217105D53F9002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 52";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 1483;
+		vrLoc = 945;
+	};
+	9A25321A105D54E1002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 52";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 1483;
+		vrLoc = 945;
+	};
+	9A25321B105D54E1002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */;
+		name = "MyTTView.m: 28";
+		rLen = 368;
+		rLoc = 1026;
+		rType = 0;
+		vrLen = 1331;
+		vrLoc = 290;
+	};
+	9A25321C105D54E1002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 30";
+		rLen = 0;
+		rLoc = 988;
+		rType = 0;
+		vrLen = 986;
+		vrLoc = 874;
+	};
+	9A25321D105D54E1002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 41";
+		rLen = 0;
+		rLoc = 2354;
+		rType = 0;
+		vrLen = 1264;
+		vrLoc = 874;
+	};
+	9A253220105D5568002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 39";
+		rLen = 0;
+		rLoc = 2354;
+		rType = 0;
+		vrLen = 1323;
+		vrLoc = 874;
+	};
+	9A253223105D55A0002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 40";
+		rLen = 0;
+		rLoc = 988;
+		rType = 0;
+		vrLen = 1328;
+		vrLoc = 874;
+	};
+	9A253226105D5610002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 41";
+		rLen = 0;
+		rLoc = 1178;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 874;
+	};
+	9A253229105D56A7002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 42";
+		rLen = 0;
+		rLoc = 1097;
+		rType = 0;
+		vrLen = 1311;
+		vrLoc = 874;
+	};
+	9A25322C105D5742002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 58";
+		rLen = 0;
+		rLoc = 2353;
+		rType = 0;
+		vrLen = 1993;
+		vrLoc = 1063;
+	};
+	9A25322F105D57DC002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 58";
+		rLen = 0;
+		rLoc = 2340;
+		rType = 0;
+		vrLen = 2085;
+		vrLoc = 1063;
+	};
+	9A253230105D5803002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 29";
+		rLen = 0;
+		rLoc = 988;
+		rType = 0;
+		vrLen = 1806;
+		vrLoc = 1030;
+	};
+	9A253235105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A1445A60FC30B1100A791C0 /* JRSwizzle.h */;
+		name = "JRSwizzle.h: 11";
+		rLen = 88;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 574;
+		vrLoc = 0;
+	};
+	9A253236105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A1445A70FC30B1100A791C0 /* JRSwizzle.m */;
+		name = "JRSwizzle.m: 23";
+		rLen = 0;
+		rLoc = 955;
+		rType = 0;
+		vrLen = 1141;
+		vrLoc = 236;
+	};
+	9A253237105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AD68AA00FA11D7F000500AF /* MyTTAppPrefsController.h */;
+		name = "MyTTAppPrefsController.h: 10";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 0;
+	};
+	9A253238105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AA3C0CDDD1E700E95DF9 /* MyTTView.h */;
+		name = "MyTTView.h: 21";
+		rLen = 0;
+		rLoc = 857;
+		rType = 0;
+		vrLen = 983;
+		vrLoc = 0;
+	};
+	9A253239105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB5598A0FC43C6B00F73DB4 /* MyTTProfile.h */;
+		name = "MyTTProfile.h: 22";
+		rLen = 0;
+		rLoc = 865;
+		rType = 0;
+		vrLen = 988;
+		vrLoc = 0;
+	};
+	9A25323A105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */;
+		name = "MyTTProfile.m: 29";
+		rLen = 0;
+		rLoc = 1015;
+		rType = 0;
+		vrLen = 953;
+		vrLoc = 2524;
+	};
+	9A25323B105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB55AC80FC4526900F73DB4 /* MyColors.h */;
+		name = "MyColors.h: 13";
+		rLen = 0;
+		rLoc = 601;
+		rType = 0;
+		vrLen = 1054;
+		vrLoc = 211;
+	};
+	9A25323C105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 52";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 1145;
+		vrLoc = 0;
+	};
+	9A25323D105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */;
+		name = "MyTTView.m: 28";
+		rLen = 368;
+		rLoc = 1026;
+		rType = 0;
+		vrLen = 1410;
+		vrLoc = 211;
+	};
+	9A25323E105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
+		name = "MyTTAppPrefsController.m: 61";
+		rLen = 0;
+		rLoc = 1248;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 1253;
+	};
+	9A25323F105D5910002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
+		name = "MyTTAppPrefsController.m: 62";
+		rLen = 0;
+		rLoc = 1360;
+		rType = 0;
+		vrLen = 1092;
+		vrLoc = 1193;
+	};
+	9A253248105D5B18002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
+		name = "MyTTAppPrefsController.m: 37";
+		rLen = 0;
+		rLoc = 1248;
+		rType = 0;
+		vrLen = 1248;
+		vrLoc = 0;
+	};
+	9A253249105D5B18002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AA3C0CDDD1E700E95DF9 /* MyTTView.h */;
+		name = "MyTTView.h: 21";
+		rLen = 0;
+		rLoc = 857;
+		rType = 0;
+		vrLen = 983;
+		vrLoc = 0;
+	};
+	9A25324A105D5B18002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */;
+		name = "MyTTView.m: 28";
+		rLen = 368;
+		rLoc = 1026;
+		rType = 0;
+		vrLen = 1410;
+		vrLoc = 211;
+	};
+	9A25324B105D5B18002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF807F0CD7EBE300ADF8D4 /* MyTermColors.h */;
+		name = "MyTermColors.h: 20";
+		rLen = 20;
+		rLoc = 815;
+		rType = 0;
+		vrLen = 1063;
+		vrLoc = 0;
+	};
+	9A25324C105D5B18002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB55AC90FC4526900F73DB4 /* MyColors.m */;
+		name = "MyColors.m: 39";
+		rLen = 0;
+		rLoc = 1403;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 860;
+	};
+	9A25324D105D5B18002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AB55AC80FC4526900F73DB4 /* MyColors.h */;
+		name = "MyColors.h: 13";
+		rLen = 0;
+		rLoc = 601;
+		rType = 0;
+		vrLen = 975;
+		vrLoc = 290;
+	};
+	9A25324E105D5B18002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 52";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 1145;
+		vrLoc = 0;
+	};
+	9A25324F105D5B18002060CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */;
+		name = "MyTermColors.m: 52";
+		rLen = 0;
+		rLoc = 1933;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 2427;
+	};
 	9A39AA3C0CDDD1E700E95DF9 /* MyTTView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 462}}";
@@ -2106,8 +2744,8 @@
 	9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 546}}";
-			sepNavSelRange = "{1572, 0}";
-			sepNavVisRange = "{290, 1331}";
+			sepNavSelRange = "{1026, 368}";
+			sepNavVisRange = "{211, 1410}";
 		};
 	};
 	9A39AAD80CDDD40800E95DF9 /* TTView.h */ = {
@@ -2245,7 +2883,7 @@
 		fRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */;
 		name = "MyTTAppPrefsController.m: 38";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1248;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 798;
@@ -2385,24 +3023,24 @@
 	};
 	9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {864, 1261}}";
-			sepNavSelRange = "{2157, 0}";
-			sepNavVisRange = "{2281, 686}";
+			sepNavIntBoundsRect = "{{0, 0}, {864, 1287}}";
+			sepNavSelRange = "{1933, 0}";
+			sepNavVisRange = "{2427, 684}";
 			sepNavWindowFrame = "{{15, 52}, {1134, 694}}";
 		};
 	};
 	9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {864, 806}}";
-			sepNavSelRange = "{1068, 0}";
-			sepNavVisRange = "{0, 1346}";
+			sepNavIntBoundsRect = "{{0, 0}, {864, 1196}}";
+			sepNavSelRange = "{1015, 0}";
+			sepNavVisRange = "{2524, 953}";
 		};
 	};
 	9AB5598A0FC43C6B00F73DB4 /* MyTTProfile.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 462}}";
-			sepNavSelRange = "{836, 0}";
-			sepNavVisRange = "{0, 955}";
+			sepNavSelRange = "{865, 0}";
+			sepNavVisRange = "{0, 988}";
 		};
 	};
 	9AB55A5D0FC44B0400F73DB4 /* English */ = {
@@ -2461,14 +3099,14 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 546}}";
 			sepNavSelRange = "{601, 0}";
-			sepNavVisRange = "{211, 1054}";
+			sepNavVisRange = "{290, 975}";
 		};
 	};
 	9AB55AC90FC4526900F73DB4 /* MyColors.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 884}}";
-			sepNavSelRange = "{166, 0}";
-			sepNavVisRange = "{959, 1076}";
+			sepNavSelRange = "{1403, 0}";
+			sepNavVisRange = "{860, 1068}";
 		};
 	};
 	9AB6D2FF103AE45300DC264E /* PBXTextBookmark */ = {
@@ -2506,17 +3144,17 @@
 	};
 	9AD68AA00FA11D7F000500AF /* MyTTAppPrefsController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {864, 351}}";
+			sepNavIntBoundsRect = "{{0, 0}, {864, 462}}";
 			sepNavSelRange = "{428, 0}";
-			sepNavVisRange = "{139, 760}";
+			sepNavVisRange = "{0, 904}";
 			sepNavWindowFrame = "{{19, 67}, {1134, 956}}";
 		};
 	};
 	9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {864, 936}}";
-			sepNavSelRange = "{1332, 0}";
-			sepNavVisRange = "{1253, 928}";
+			sepNavIntBoundsRect = "{{0, 0}, {864, 637}}";
+			sepNavSelRange = "{1248, 0}";
+			sepNavVisRange = "{0, 1248}";
 		};
 	};
 	9ADEC5400FC183CD00D6CB7F /* TTProfile.h */ = {

@@ -279,13 +279,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>33</integer>
+									<integer>32</integer>
 									<integer>27</integer>
 									<integer>26</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 34}, {329, 606}}</string>
+							<string>{{0, 0}, {329, 606}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>9AD49D640DCB3E7E00FD5C54</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Info.plist</string>
+								<string>MyTermColors.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>9AD49D650DCB3E7E00FD5C54</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Info.plist</string>
+										<string>MyTermColors.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>9A2531E1105D3C64002060CC</string>
+										<string>9A25324F105D5B18002060CC</string>
 										<key>history</key>
 										<array>
 											<string>9A22227A0F4239B300F12E27</string>
@@ -343,20 +343,20 @@
 											<string>9A88B26C105B2AD9002E493A</string>
 											<string>9A88B28B105B2DAF002E493A</string>
 											<string>9A88B28D105B2DAF002E493A</string>
-											<string>9A253069105D13DD002060CC</string>
-											<string>9A25306A105D13DD002060CC</string>
 											<string>9A253085105D15FF002060CC</string>
-											<string>9A253095105D17CD002060CC</string>
-											<string>9A2531C9105D3949002060CC</string>
-											<string>9A2531CA105D3949002060CC</string>
-											<string>9A2531CB105D3949002060CC</string>
-											<string>9A2531CC105D3949002060CC</string>
-											<string>9A2531CD105D3949002060CC</string>
-											<string>9A2531CE105D3949002060CC</string>
-											<string>9A2531D0105D3949002060CC</string>
-											<string>9A2531D6105D3BE9002060CC</string>
-											<string>9A2531DF105D3C64002060CC</string>
-											<string>9A2531E0105D3C64002060CC</string>
+											<string>9A2531E4105D4DAE002060CC</string>
+											<string>9A253235105D5910002060CC</string>
+											<string>9A253236105D5910002060CC</string>
+											<string>9A253237105D5910002060CC</string>
+											<string>9A253239105D5910002060CC</string>
+											<string>9A25323A105D5910002060CC</string>
+											<string>9A253248105D5B18002060CC</string>
+											<string>9A253249105D5B18002060CC</string>
+											<string>9A25324A105D5B18002060CC</string>
+											<string>9A25324B105D5B18002060CC</string>
+											<string>9A25324C105D5B18002060CC</string>
+											<string>9A25324D105D5B18002060CC</string>
+											<string>9A25324E105D5B18002060CC</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

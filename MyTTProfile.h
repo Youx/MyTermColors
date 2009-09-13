@@ -19,6 +19,7 @@
 
 @interface NSObject (MyTTProfile)
 
+- (id)initWithProfile2:(id)arg1;
 - (id)valueForKey2:(id)key;
 - (void)setValue2:(id)value forKey:(id)key;
 - (id)valueForUndefinedKey2:(id) key;

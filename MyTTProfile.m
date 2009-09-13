@@ -22,6 +22,33 @@
 
 @implementation NSObject (MyTTProfile)
 
+- (id)initWithProfile2:(id)arg1
+{
+	id def = [self initWithProfile2:arg1];
+	
+	/* Initialize the colors correctly */
+	[def setValue: [arg1 valueForKey:@"vtBlackColor"] forKey: @"vtBlackColor"];
+	[def setValue: [arg1 valueForKey:@"vtRedColor"]	forKey: @"vtRedColor"];
+	[def setValue: [arg1 valueForKey:@"vtGreenColor"] forKey: @"vtGreenColor"];
+	[def setValue: [arg1 valueForKey:@"vtYellowColor"] forKey: @"vtYellowColor"];
+	[def setValue: [arg1 valueForKey:@"vtBlueColor"] forKey: @"vtBlueColor"];
+	[def setValue: [arg1 valueForKey:@"vtMagentaColor"] forKey: @"vtMagentaColor"];
+	[def setValue: [arg1 valueForKey:@"vtCyanColor"] forKey: @"vtCyanColor"];
+	[def setValue: [arg1 valueForKey:@"vtWhiteColor"] forKey: @"vtWhiteColor"];
+
+	[def setValue: [arg1 valueForKey:@"vtBrightBlackColor"] forKey: @"vtBrightBlackColor"];
+	[def setValue: [arg1 valueForKey:@"vtBrightRedColor"] forKey: @"vtBrightRedColor"];
+	[def setValue: [arg1 valueForKey:@"vtBrightGreenColor"] forKey: @"vtBrightGreenColor"];
+	[def setValue: [arg1 valueForKey:@"vtBrightYellowColor"] forKey: @"vtBrightYellowColor"];
+	[def setValue: [arg1 valueForKey:@"vtBrightBlueColor"] forKey: @"vtBrightBlueColor"];
+	[def setValue: [arg1 valueForKey:@"vtBrightMagentaColor"] forKey: @"vtBrightMagentaColor"];
+	[def setValue: [arg1 valueForKey:@"vtBrightCyanColor"] forKey: @"vtBrightCyanColor"];
+	[def setValue: [arg1 valueForKey:@"vtBrightWhiteColor"] forKey: @"vtBrightWhiteColor"];
+
+	return def;
+}
+
+
 /**
  * Set the value for a vt*Color
  * NB : no need to swizzle this since its not overriden in the class
@@ -54,6 +81,7 @@
 
 - (id)valueForUndefinedKey2:(id) key
 {
+	//NSLog(@"Terminal : undefined key");
 	if ([key hasPrefix: @"vt"] && [key hasSuffix: @"Color"]) {
 		return [MyColors performSelector: NSSelectorFromString(key)];
 	}
