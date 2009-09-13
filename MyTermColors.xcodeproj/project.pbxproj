@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		9A1445A80FC30B1100A791C0 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1445A70FC30B1100A791C0 /* JRSwizzle.m */; };
 		9A39AA3E0CDDD1E700E95DF9 /* MyTTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */; };
@@ -16,12 +15,10 @@
 		9AB55ACA0FC4526900F73DB4 /* MyColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB55AC90FC4526900F73DB4 /* MyColors.m */; };
 		9AD68AA20FA11D7F000500AF /* MyTTAppPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */; };
 		9ADEC7B50FC223E300D6CB7F /* colors_selector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEC7B20FC223B400D6CB7F /* colors_selector.xib */; };
-		9ADEC7E00FC2267900D6CB7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEC7DF0FC2267900D6CB7F /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF630370AF2F00C91783 /* MyTermColors_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTermColors_Prefix.pch; sourceTree = "<group>"; };
@@ -31,15 +28,10 @@
 		9A1445A70FC30B1100A791C0 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		9A1F7E380FCEFC2F00DCFD85 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/colors_selector.strings; sourceTree = "<group>"; };
 		9A1F7E3C0FCEFCC000DCFD85 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Spanish; path = Spanish.lproj/colors_selector.xib; sourceTree = "<group>"; };
-		9A1F7E3D0FCEFCCB00DCFD85 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A1F7E3E0FCEFCD600DCFD85 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9A2222550F4087B600F12E27 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
-		9A2222560F4087C700F12E27 /* TTAccessibleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAccessibleView.h; sourceTree = "<group>"; };
 		9A39AA3C0CDDD1E700E95DF9 /* MyTTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTView.h; sourceTree = "<group>"; };
 		9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTTView.m; sourceTree = "<group>"; };
-		9A39AAD80CDDD40800E95DF9 /* TTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTView.h; sourceTree = "<group>"; };
 		9A76E16F0FC2337600B70E8E /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9A76E1740FC233DD00B70E8E /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9AAF807F0CD7EBE300ADF8D4 /* MyTermColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTermColors.h; sourceTree = "<group>"; };
 		9AAF80800CD7EBE300ADF8D4 /* MyTermColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTermColors.m; sourceTree = "<group>"; };
 		9AB559890FC43C6B00F73DB4 /* MyTTProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTTProfile.m; sourceTree = "<group>"; };
@@ -49,13 +41,9 @@
 		9AB55A600FC44B6B00F73DB4 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/colors_selector.strings; sourceTree = "<group>"; };
 		9AB55AC80FC4526900F73DB4 /* MyColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyColors.h; sourceTree = "<group>"; };
 		9AB55AC90FC4526900F73DB4 /* MyColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyColors.m; sourceTree = "<group>"; };
-		9AD68A920FA11891000500AF /* TTAppPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAppPrefsController.h; sourceTree = "<group>"; };
 		9AD68AA00FA11D7F000500AF /* MyTTAppPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTAppPrefsController.h; sourceTree = "<group>"; };
 		9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTTAppPrefsController.m; sourceTree = "<group>"; };
-		9ADEC5400FC183CD00D6CB7F /* TTProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTProfile.h; sourceTree = "<group>"; };
-		9ADEC5AA0FC1AC9A00D6CB7F /* TTProfileArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTProfileArrayController.h; sourceTree = "<group>"; };
 		9ADEC7B40FC223CD00D6CB7F /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/colors_selector.xib; sourceTree = "<group>"; };
-		9ADEC7C20FC2247700D6CB7F /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9ADEC7DD0FC2267200D6CB7F /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9ADEC7E10FC2269400D6CB7F /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9ADEC83F0FC22E4200D6CB7F /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/colors_selector.xib; sourceTree = "<group>"; };
@@ -102,7 +90,6 @@
 				9AB55A5C0FC44B0400F73DB4 /* colors_selector.strings */,
 				9ADEC7B20FC223B400D6CB7F /* colors_selector.xib */,
 				8D5B49B7048680CD000E48DA /* Info.plist */,
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
 				9ADEC7DF0FC2267900D6CB7F /* Localizable.strings */,
 			);
 			name = Resources;
@@ -117,7 +104,6 @@
 				9A1445A70FC30B1100A791C0 /* JRSwizzle.m */,
 				9AD68AA00FA11D7F000500AF /* MyTTAppPrefsController.h */,
 				9AD68AA10FA11D7F000500AF /* MyTTAppPrefsController.m */,
-				9A39AAE20CDDD42400E95DF9 /* imported */,
 				9A39AA3C0CDDD1E700E95DF9 /* MyTTView.h */,
 				9A39AA3D0CDDD1E700E95DF9 /* MyTTView.m */,
 				9AAF807F0CD7EBE300ADF8D4 /* MyTermColors.h */,
@@ -162,19 +148,6 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		9A39AAE20CDDD42400E95DF9 /* imported */ = {
-			isa = PBXGroup;
-			children = (
-				9A2222560F4087C700F12E27 /* TTAccessibleView.h */,
-				9A2222550F4087B600F12E27 /* CDStructures.h */,
-				9A39AAD80CDDD40800E95DF9 /* TTView.h */,
-				9AD68A920FA11891000500AF /* TTAppPrefsController.h */,
-				9ADEC5400FC183CD00D6CB7F /* TTProfile.h */,
-				9ADEC5AA0FC1AC9A00D6CB7F /* TTProfileArrayController.h */,
-			);
-			name = imported;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +178,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "MyTermColors" */;
-			compatibilityVersion = "Xcode 3.0";
+			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -229,8 +202,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ADEC7B50FC223E300D6CB7F /* colors_selector.xib in Resources */,
-				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
-				9ADEC7E00FC2267900D6CB7F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +242,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Create the DMG file\n/usr/local/bin/dmgcanvas -t MyTermColors.dmgCanvas -o build/MyTermColors-1.0a.dmg";
+			shellScript = "# Create the DMG file\nrm -r build/MyTermColors-1.0a.dmg\n/usr/local/bin/dmgcanvas -t MyTermColors.dmgCanvas -o build/MyTermColors-1.0a.dmg";
 		};
 		9AB559E90FC4401500F73DB4 /* Localize nibs from English */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -314,17 +285,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				089C167EFE841241C02AAC07 /* English */,
-				9ADEC7C20FC2247700D6CB7F /* French */,
-				9A76E1740FC233DD00B70E8E /* German */,
-				9A1F7E3D0FCEFCCB00DCFD85 /* Spanish */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		9AB55A5C0FC44B0400F73DB4 /* colors_selector.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,6 +324,7 @@
 		1DEB913B08733D840010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -374,6 +335,8 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PRODUCT_NAME = MyTermColors;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = bundle;
 				ZERO_LINK = YES;
 			};
@@ -382,6 +345,7 @@
 		1DEB913C08733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -389,6 +353,8 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PRODUCT_NAME = MyTermColors;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
@@ -399,17 +365,16 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
 		1DEB914008733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = (
@@ -419,7 +384,8 @@
 					dynamic_lookup,
 				);
 				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};

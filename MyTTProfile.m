@@ -20,7 +20,7 @@
 #import "MyTermColors.h"
 #import "MyColors.h"
 
-@implementation TTProfile (MyTerm)
+@implementation NSObject (MyTTProfile)
 
 /**
  * Set the value for a vt*Color
@@ -32,7 +32,7 @@
 		[self setScopeValue:[NSArchiver archivedDataWithRootObject:value] forKey:key];
 		[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 	} else {
-		return [super setValue: value forKey: key];
+		return [self setValue2: value forKey: key];
 	}
 }
 
@@ -49,7 +49,7 @@
 			return [NSUnarchiver unarchiveObjectWithData: d];
 		return [self valueForUndefinedKey: key];
 	}
-	return [super valueForKey: key];
+	return [self valueForKey2: key];
 }
 
 - (id)valueForUndefinedKey2:(id) key

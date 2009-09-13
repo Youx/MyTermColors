@@ -18,11 +18,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "TTAppPrefsController.h"
 
-@interface TTAppPrefsController (MyTerm)
+@interface NSObject (MyTTAppPrefsController)
 
 - (void) addColorsTab;
-- (id)profilesController;
 
 @end

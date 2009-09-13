@@ -25,7 +25,7 @@ NSString *_L(NSString *in);
 @interface MyTermColors : NSObject {
 	@public
 	IBOutlet NSView *colorsView;
-	TTAppPrefsController *ctl;
+	id ctl;
 }
 + (void) load;
 + (void) redrawWindows;

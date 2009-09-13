@@ -17,11 +17,10 @@
  */
 
 #import <Cocoa/Cocoa.h>
-#import "TTView.h"
 
-@interface TTView (MyTerm)
+@interface NSObject (MyTTView)
 
 /* New for OSX 10.6 's Terminal.app */
-- (id)colorForANSIColor2:(unsigned long long)arg1 adjustedRelativeToColor:(id)arg2;
+- (id)colorForANSIColor2:(unsigned int)arg1 adjustedRelativeToColor:(id)arg2;
 
 @end
