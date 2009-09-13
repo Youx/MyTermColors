@@ -25,7 +25,7 @@
 - (id)initWithProfile2:(id)arg1
 {
 	id def = [self initWithProfile2:arg1];
-	
+
 	/* Initialize the colors correctly */
 	[def setValue: [arg1 valueForKey:@"vtBlackColor"] forKey: @"vtBlackColor"];
 	[def setValue: [arg1 valueForKey:@"vtRedColor"]	forKey: @"vtRedColor"];
