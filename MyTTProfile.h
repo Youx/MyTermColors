@@ -16,9 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#import "TTProfile.h"
 
-@interface TTProfile (MyTerm)
+@interface NSObject (MyTTProfile)
 
 - (id)valueForKey2:(id)key;
 - (void)setValue2:(id)value forKey:(id)key;
