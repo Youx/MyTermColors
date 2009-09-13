@@ -18,6 +18,7 @@
 
 #import <Cocoa/Cocoa.h>
 
+
 @interface NSColor (Terminal)
 + (id)vtBlackColor;
 + (id)vtRedColor;
