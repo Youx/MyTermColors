@@ -20,7 +20,7 @@
 #import "MyTTProfile.h"
 #import "MyColors.h"
 
-@implementation NSObject (MyTTView)
+@implementation NSView (MyTTView)
 
 
 /* New for OSX 10.6 's Terminal.app */
@@ -35,7 +35,22 @@
 	if (arg1 == 0 || arg1 > 16) {/* undefined behavior : use the old function */
 		return [self colorForANSIColor2: arg1 adjustedRelativeToColor: arg2];
 	} else {
-		return [[self profile] valueForKey: colors[arg1]];//
+		return [[self performSelector: @selector(profile)] valueForKey: colors[arg1]];//
+	}
+}
+/* Function for OSX 10.5 's Terminal.app */
+- (id)colorForANSIColor2:(unsigned int)arg1 {
+	NSString* colors[] = {@"vtBlackColor",
+		@"vtBlackColor", @"vtRedColor", @"vtGreenColor", @"vtYellowColor",
+		@"vtBlueColor", @"vtMagentaColor", @"vtCyanColor", @"vtWhiteColor",
+		@"vtBrightBlackColor", @"vtBrightRedColor", @"vtBrightGreenColor",
+		@"vtBrightYellowColor", @"vtBrightBlueColor", @"vtBrightMagentaColor",
+		@"vtBrightCyanColor", @"vtBrightWhiteColor"};
+	
+	if (arg1 == 0 || arg1 > 16) {/* undefined behavior : use the old function */
+		return [self colorForANSIColor2: arg1];
+	} else {
+		return [[self performSelector: @selector(profile)] valueForKey: colors[arg1]];//
 	}
 }
 @end

@@ -56,7 +56,9 @@
 - (void)setValue2:(id)value forKey:(id)key
 {
 	if ([key hasPrefix: @"vt"] && [key hasSuffix: @"Color"]) {
-		[self setScopeValue:[NSArchiver archivedDataWithRootObject:value] forKey:key];
+		[self performSelector: @selector(setScopeValue:forKey:)
+			   withObject:[NSArchiver archivedDataWithRootObject:value]
+			   withObject:key];
 		[MyTermColors redrawWindows]; /* Redraw the main window to update colors */
 	} else {
 		return [self setValue2: value forKey: key];
@@ -71,7 +73,7 @@
 {
 	NSData *d = nil;
 	if ([key hasPrefix: @"vt"] && [key hasSuffix: @"Color"]) {
-		d = [self effectiveValueForKey:key];
+		d = [self performSelector:@selector(effectiveValueForKey:) withObject:key];
 		if (d != nil)
 			return [NSUnarchiver unarchiveObjectWithData: d];
 		return [self valueForUndefinedKey: key];
